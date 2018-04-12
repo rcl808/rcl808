@@ -2,3 +2,7 @@
   background: url('/images/meteor.jpg');
   background-size: cover;
 }
+
+.homepage {
+  padding-top: 50px;
+}
