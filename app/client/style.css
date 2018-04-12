@@ -5,6 +5,16 @@
   padding-bottom: 120px;
 }
 
+.create-club-page {
+  background: url('/images/starting.png');
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.create-club-info {
+  padding-top: 50px;
+}
 .homepage {
   padding-top: 50px;
 }
