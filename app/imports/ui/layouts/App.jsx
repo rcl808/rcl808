@@ -35,7 +35,6 @@ class App extends React.Component {
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
-            <HomePage/>
             <Footer/>
           </div>
         </Router>
