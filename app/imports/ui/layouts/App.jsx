@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import HomePage from '../pages/HomePage';
 import CreateClub from '../pages/CreateClub';
+import ClubPage from '../pages/ClubPage';
 import ListContacts from '../pages/ListContacts';
 import ListContactsAdmin from '../pages/ListContactsAdmin';
 import AddContact from '../pages/AddContact';
@@ -31,6 +32,7 @@ class App extends React.Component {
               <Route path="/signup" component={Signup}/>
               <Route exact path="/homepage" component={HomePage}/>
               <Route exact path="/createclub" component={CreateClub}/>
+              <Route exact path="/clubpage" component={ClubPage}/>
               <ProtectedRoute path="/list" component={ListContacts}/>
               <ProtectedRoute path="/add" component={AddContact}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
