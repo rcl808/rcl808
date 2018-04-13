@@ -40,7 +40,7 @@
 
   "galaxy.meteor.com": {
     "env": {
-      "MONGO_URL": "mongodb://user:changeme@ds019068.mlab.com:19068/appdb"
+      "MONGO_URL": "mongodb://user:rcl808@ds243049.mlab.com:43049/rcl"
     }
   }
 }

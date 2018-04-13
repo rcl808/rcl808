@@ -12,6 +12,12 @@
   padding-bottom: 70px;
 }
 
+.below-landing-picture {
+  background-color: #000000;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .create-club-info {
   padding-top: 50px;
 }
