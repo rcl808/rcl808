@@ -5,13 +5,10 @@ import { Container, Grid, Header, Icon } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
-    const divStyle = { paddingTop: '60px', color: 'black' };
-    return (
+      return (
         <footer>
           <div className='footer-background'>
             <Container textAlign='center'>
-              <Header as='h1' inverted>How Rad Club List Works</Header>
-              <br/>
               <Grid container verticalAlign='middle' columns={4}>
                 <Grid.Column textAlign='right'>
                   <Icon name='search' size='huge' color='blue' />
@@ -38,6 +35,16 @@ class Footer extends React.Component {
                   </a>
                 </Grid.Column>
               </Grid>
+              <Header as='h2' inverted>
+                <Header.Content inverted>
+                  Rad Club List
+                  <Header.Subheader inverted>
+                    University of Hawaii at Manoa
+                    <br/>
+                    Honolulu, HI 96822
+                  </Header.Subheader>
+                </Header.Content>
+              </Header>
             </Container>
           </div>
         </footer>
