@@ -13,28 +13,2268 @@
 
   "defaultContacts": [
     {
-      "firstName": "Philip",
-      "lastName": "Johnson",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://philipmjohnson.github.io/images/philip2.jpeg",
-      "owner": "john@foo.com",
-      "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and the CEO of OpenPowerQuality.com."
-    },
-    {
-      "firstName": "Henri",
-      "lastName": "Casanova",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://avatars0.githubusercontent.com/u/7494478?s=460&v=4",
-      "owner": "john@foo.com",
-      "description": "I am originally from France. I maintain a list of reports from my surf sessions. I have proof that I ran the Hana relay with an actual Team."
-    },
-    {
-      "firstName": "Kim",
-      "lastName": "Binsted",
-      "address": "POST 307, University of Hawaii",
-      "image": "https://pbs.twimg.com/profile_images/798636728852434944/Y2EMD2i5_400x400.jpg",
+      "nameOfOrganization": "Academy for Creative Media Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Josh Lee",
+      "image": "https://picsum.photos/300/150/?random",
       "owner": "admin@foo.com",
-      "description": "Kim Binsted received her BSc in Physics at McGill (1991), and her PhD in Artificial Intelligence from the University of Edinburgh (1996). Her thesis topic was the computational modeling and generation of punning riddles, and her program, JAPE (Joke Analysis and Production Engine), generated puns such as What do you call a Martian who drinks beer? An ale-ien!"
+      "contactAndClubInfo": "jlee47@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Accounting Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Michael Jitchaku",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mjitchak@hawaii.edu. www.acuhmanoa.com. FB:Accounting Club at UH"
+    },
+    {
+      "nameOfOrganization": "Advocates for Public Interest Law",
+      "type": "Academic/Professional",
+      "contactPerson": "Kenory Khuy",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kenory@hawaii.edu. apilatuh.weebly.com. FB: www.facebook.com/groups/64178184733"
+    },
+    {
+      "nameOfOrganization": "AECT- Hawai'i",
+      "type": "Academic/Professional",
+      "contactPerson": "Minara Mordecai",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "minara@hawaii.edu. https://bit.ly/aect-hi. "
+    },
+    {
+      "nameOfOrganization": "Aikido Club at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Timothy J. Holliday",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "holliday@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Aloha Navs",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Cameron Bunch",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cmbunch@hawaii.edu. uhnavs.org. FB: Aloha Navs"
+    },
+    {
+      "nameOfOrganization": "Aloha Runnning Club at the University of Hawai`I at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Kelsey Casalini",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kelseypc@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Alohathon Dance Marathon",
+      "type": "Sports/Leisure",
+      "contactPerson": "Alysia Martin",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "alysiaam@hawaii.edu. FB: alohathon.uhm | Twitter: @alohathon_uhm | IG: alohathon.uhm"
+    },
+    {
+      "nameOfOrganization": "Alpha Gamma Delta",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Mikaela Handler",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mhandler@hawaii.edu. http://hawaii.alphagammadelta.org. FB: Alpha Gamma Delta @ UH Manoa"
+    },
+    {
+      "nameOfOrganization": "American Cetacean Society Student Coalition at the University of Hawai'i",
+      "type": "Sports/Leisure",
+      "contactPerson": "Rebecca Katz",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rmkatz@hawaii.edu. acsonline.org. FB: American Cetacean Society Student Coalition - University of Hawai'i at Manoa | TW: acs_uh | IG: acs_uh"
+    },
+    {
+      "nameOfOrganization": "American Indian Science & Engineering Society",
+      "type": "Academic/Professional",
+      "contactPerson": "John (Makamae) Carpenter",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jwcarpen@hawaii.edu. FB: AISES at the University of Hawaii at Manoa"
+    },
+    {
+      "nameOfOrganization": "American Institute of Architecture Students",
+      "type": "Academic/Professional",
+      "contactPerson": "Kristoffer Jugueta",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kjugueta@hawaii.edu. aiashawaii.com. FB: facebook.com/aiashawaii | IG: @aiashawaii"
+    },
+    {
+      "nameOfOrganization": "American Library Association Hawai'I Student Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Morganne Kaahaaina",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mhkaahaa@hawaii.edu. alahisc.wordpress.com. FB: www.facebook.com/ALAscHawaii | TW: @ALAsc_hi"
+    },
+    {
+      "nameOfOrganization": "American Marketing Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Dakota Chun",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dakota6@hawaii.edu. amauhm.org. FB: American Marketing Association UHM"
+    },
+    {
+      "nameOfOrganization": "American Society of Civil Engineers",
+      "type": "Academic/Professional",
+      "contactPerson": "Leah Miyasato",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "leahmiya@hawaii.edu. asceuhm.weebly.com. FB: www.facebook.com/asce uhm/ | IG: @asceuhm"
+    },
+    {
+      "nameOfOrganization": "American Society of Mechanical Engineers",
+      "type": "Academic/Professional",
+      "contactPerson": "Ryan-Philip Roque",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rpr@hawaii.edu. uhmasme.com. "
+    },
+    {
+      "nameOfOrganization": "American Water Works Association Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Tineill Dudoit",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tineill@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Animal Science Club at University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Jenee Odani",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jsodani@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Anime Manga Society",
+      "type": "Sports/Leisure",
+      "contactPerson": "Barryn Chun",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ams@hawaii.edu. www.amshawaii.org. FB: facebook.com/groups/AMSManoa/"
+    },
+    {
+      "nameOfOrganization": "Anthropology Undergraduate Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Mahealani Wilson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mwilson2@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Arnold Air Society",
+      "type": "Academic/Professional",
+      "contactPerson": "Caleb Blackwell",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cblack67@hawaii.edu. FB: facebook.com/arnoldairhickam"
+    },
+    {
+      "nameOfOrganization": "Association for Computing Machinery at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Brian Mayeshiro",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "brianmay@hawaii.edu. acmanoa.github,io. FB: ACMManoa | Twitter: @ACMatManoa"
+    },
+    {
+      "nameOfOrganization": "Association of Chinese Scholars in Hawaii (ACSH)",
+      "type": "Academic/Professional",
+      "contactPerson": "Ivan Wen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "hsingwen@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Association of Leaders, Philanthropists, and Hawaiian Activists",
+      "type": "Academic/Professional",
+      "contactPerson": "Marcus Armstrong-Patterson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "marcuspa@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Atherton YMCA",
+      "type": "Academic/Professional",
+      "contactPerson": "Cuong Tran",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cuongt@hawaii.edu. athertonymca.org. FB: Atherton YMCA"
+    },
+    {
+      "nameOfOrganization": "Athletic Training Student Society",
+      "type": "Academic/Professional",
+      "contactPerson": "Jesse Williams",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jw8024@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Bachelor of Social Work Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Kainani Derrickson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kainanid@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Baha'i Association at UH Manoa",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Ashiyan Rahmani-Sharazi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "arahmani@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Balloon Satellite Mission at University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Drex Anne",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "drex@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "BAMP + Electric Palms Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Leanne Fujimoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "leannefu@hawaii.edu. bampproject.com. "
+    },
+    {
+      "nameOfOrganization": "Baptist Collegiate Ministries",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Kristina Kornegay",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kmk3@hawaii.edu. www.bcmoahu.org. FB: facebook.com/groups/bcmoahu | IG: @bcmoahu"
+    },
+    {
+      "nameOfOrganization": "Belly Dance Raqs - Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Samantha Giridhar",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "swon@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Best Buddies Hawaii",
+      "type": "Sports/Leisure",
+      "contactPerson": "Rhonda Black",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rblack@hawaii.edu. www.bestbuddies.org/find-programs/hawaii. FB: www.facebook.com/bestbuddies.hi"
+    },
+    {
+      "nameOfOrganization": "Beta Alpha Psi - Delta Theta Chapter",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Caitlin Kaneshiro",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ckk9@hawaii.edu. www2.hawaii.edu/~bap/about.htm. FB: Beta Alpha Psi - Delta Theta Chapter"
+    },
+    {
+      "nameOfOrganization": "Beta Beta Gamma Sorority",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Georgeanna Bowen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "grbowen@hawaii.edu. betabetagamma.com. FB: @betabetagamma | Twitter: @bbg_uhm | IG: bbg_uhm"
+    },
+    {
+      "nameOfOrganization": "Biological Engineering Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Kacie Niimoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ktmn@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Black Student Association",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Bri'Ana Lawson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "brianal9@hawaii.edu. FB: www.facebook.com/groups/bsamanoa | TW: @bsa_uh_manoa"
+    },
+    {
+      "nameOfOrganization": "Botanical Society of America Student Chapter at University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Scott VanDeVerg",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "scottvdv@hawaii.edu. http://botany.org/membership/studentbenefits.php. http://www.facebook.com/BSAatUHM"
+    },
+    {
+      "nameOfOrganization": "Brazilian Freestyle Jujitsu",
+      "type": "Sports/Leisure",
+      "contactPerson": "Brent Fujimoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "brentfuj@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Breathe Aloha",
+      "type": "Student Affairs",
+      "contactPerson": "Chelsea Jane Gonzales",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cjeg@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Buddhi Yoga Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Veronica Gibson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "vgibson@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Buddhism in Action",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Tetsuya Idoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tidota@hawaii.edu. www.sgi-usa.org. "
+    },
+    {
+      "nameOfOrganization": "Business Executive Society of Tomorrow",
+      "type": "Academic/Professional",
+      "contactPerson": "Nikki Lau",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "nikkilau@hawaii.edu. http://www.bestuhm.org/. FB: https://www.facebook.com/bestuhm/"
+    },
+    {
+      "nameOfOrganization": "Campus Chinese Christian Fellowship",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Fei-Fei Jin",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jff@hawaii.edu. www.cccm2007.blog.com. n/a"
+    },
+    {
+      "nameOfOrganization": "Campus Drummers",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Kirk Sullivan",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kesulliv@hawaii.edu. groupspaces.com/CampusDrummers. "
+    },
+    {
+      "nameOfOrganization": "Capoeira Senzala",
+      "type": "Sports/Leisure",
+      "contactPerson": "Astrid Leitner",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "aleitner@hawaii.edu. FB: Capoeira Senzala Hawaii"
+    },
+    {
+      "nameOfOrganization": "CARP Hawaii",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Chizuko Allen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "chizuko@hawaii.edu. www.carplife.org. "
+    },
+    {
+      "nameOfOrganization": "Chemistry Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Eileen Chen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "esrchen@hawaii.edu. FB: UH Manoa Chemistry Club (@uhmanoachemclub) | IG: uhm_chemclub"
+    },
+    {
+      "nameOfOrganization": "Chess Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Corey Pak",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "coreypak@hawaii.edu. chess/com/club/uh-manoa. "
+    },
+    {
+      "nameOfOrganization": "Chi Epsilon",
+      "type": "Academic/Professional",
+      "contactPerson": "Kimberly Chun",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kmlchun@hawaii.edu. www.sites.google.com/site/xeumanoa/. "
+    },
+    {
+      "nameOfOrganization": "Chinese Language Flagship Club",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Oliver Sou",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "osou@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Chinese Students and Scholars Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Lin Song",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "linsong@hawaii.edu. www2.hawaii.edu/~cssauh/. "
+    },
+    {
+      "nameOfOrganization": "Church in Honolulu",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Xuan Cao",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "caoxuan@hawaii.edu. churchinhonolulu.net. "
+    },
+    {
+      "nameOfOrganization": "Circle K International",
+      "type": "Sports/Leisure",
+      "contactPerson": "Ace Jaedrin Cabato",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ajcabato@hawaii.edu. ckiuhm.weebly.com. IG: @cki_uhm"
+    },
+    {
+      "nameOfOrganization": "Clay Club at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Kaili Hamada",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kailimh@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Club Managers Association of America POP Student Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Jasmine Francisco",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jf28@hawaii.edu. FB: facebook.com/cmaa.manoa/"
+    },
+    {
+      "nameOfOrganization": "Coalition to Stop Campus Hunger",
+      "type": "Student Affairs",
+      "contactPerson": "Joannie Dobbs",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dobbs@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Colleges Against Cancer",
+      "type": "Academic/Professional",
+      "contactPerson": "Chelsea Gonzales",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cjeg@hawaii.edu. acscan.org/hawaii. FB: Colleges Against Cancer UHM"
+    },
+    {
+      "nameOfOrganization": "Contra Dancers at the University of Hawaii at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Daniel Tschudi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dtschudi@hawaii.edu. FB: http://www.facebook.com/contradancehawaii"
+    },
+    {
+      "nameOfOrganization": "COP Alaka'ina",
+      "type": "Sports/Leisure",
+      "contactPerson": "Jayde Hunter Abdon",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jhabdon@hawaii.edu. FB: COP Alakaina | IG: COPOhana"
+    },
+    {
+      "nameOfOrganization": "Coral Reef Restoration Project at the University of Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Brock Asato",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "basato88@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Cru",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Sebastian Malave",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "smalave@hawaii.edu. FB: University of Hawaii Cru"
+    },
+    {
+      "nameOfOrganization": "CTAHR Student Ambassadors",
+      "type": "Academic/Professional",
+      "contactPerson": "Mandy Chen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mchen22@hawaii.edu. http://cms.ctahr.hawaii.edu/ugstudies/Home/meetoutambassadors.aspx. FB: www.facebook.com/UHCTAHR"
+    },
+    {
+      "nameOfOrganization": "Cycle Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Herbert Allen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "allen42@hawaii.edu. cyclemanoa.org. Twitter: @cyclemanoa"
+    },
+    {
+      "nameOfOrganization": "Delta Sigma Pi",
+      "type": "Academic/Professional",
+      "contactPerson": "Robert Matsumura",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rmatsumu@hawaii.edu. dspuhm.com. "
+    },
+    {
+      "nameOfOrganization": "Disney Ohana Club",
+      "type": "Student Affairs",
+      "contactPerson": "Pauline Yang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ptyang@hawaii.edu. FB: Disney Ohana Club | IG: disneyohanaclub"
+    },
+    {
+      "nameOfOrganization": "Drone Technologies at University of Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Kalani Danas Rivera",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kalanidr@hawaii.edu. http://rip.eng.hawaii.edu/projects/university-of-hawaii-drone-technologies-2016-2017/. "
+    },
+    {
+      "nameOfOrganization": "East-West Toastmasters",
+      "type": "Student Affairs",
+      "contactPerson": "Fernando Santiago-Mandujano",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "santiago@hawaii.edu. http://eastwest.toastmastersclub.org. FB: http://www.facebook.com/EastWestToastmasters"
+    },
+    {
+      "nameOfOrganization": "Eat and Explore Hawaii Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Alyssa Kam",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "alyssalk@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Economics Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Carson Rieve",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "crieve@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Electric Vehicle Engineers Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Thomas Choe",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tchoe@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Elohist Club",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Alyssa H. Sumibcay",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "alyssah3@hawaii.edu. www.lawmscog.com. "
+    },
+    {
+      "nameOfOrganization": "Engineer's Council at the University of Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Jaynie Gaoiran",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jrcg@hawaii.edu. ecuh.org. FB:https://www.facebook.com/ECUHmanoa"
+    },
+    {
+      "nameOfOrganization": "Engineering Ohana",
+      "type": "Academic/Professional",
+      "contactPerson": "Thomas Choe",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tchoe@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Eta Kappa Nu",
+      "type": "Academic/Professional",
+      "contactPerson": "Kevin Cho",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "chokevin@hawaii.edu. hknhawaii.weebly.com. FB: HKN at UH Manoa"
+    },
+    {
+      "nameOfOrganization": "Eta Sigma Delta",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Jared Matsuki",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jmatsuki@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Ethnic Studies Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Ruben Ecampos",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "recampos@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Every Nation Campus - Honolulu",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Kelly Manzano",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kellyum@hawaii.edu. FB: Every Nation Campus Honolulu | IG: @enchonolulu"
+    },
+    {
+      "nameOfOrganization": "Every Nation Campus Pearlside",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Travis Briones",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tbriones@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Falun Gong Club",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Hong Jiang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "hjiang@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Family Medicine Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Daniella Orias",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dorias@hawaii.edu. FB: UH Family Medicine Interest Group"
+    },
+    {
+      "nameOfOrganization": "Fealofani O Samoa Club",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Florencia Banse",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "banse@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Financial Literacy Peer Educators",
+      "type": "Academic/Professional",
+      "contactPerson": "Phillip Cyr",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "pcyr89@hawaii.edu. manoa.hawaii.edu/undergrad/finlit. FB: facebook.com/uhmfinlit | TW: @UHManoaFinLit | IG: @uhmfinlit"
+    },
+    {
+      "nameOfOrganization": "Financial Management Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Tiarra Evans",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tiarra7@hawaii.edu. www.fmahawaii.club. FB: Financial Management + Association at UH Manoa | IF: uhmfma"
+    },
+    {
+      "nameOfOrganization": "Formula SAE Rainbow Warrior Racing",
+      "type": "Sports/Leisure",
+      "contactPerson": "Keanu Kim",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "keanukim@hawaii.edu. rip.eng.hawaii.edu/projects/sae-formula. FB: UHMFormula IG: @uhmfsaerwr"
+    },
+    {
+      "nameOfOrganization": "Freestyle Dance Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Jason Wong",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jbwong@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Friends of the Family",
+      "type": "Student Affairs",
+      "contactPerson": "Petunia Lau",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "petunial@hawaii.edu. fofatuhm.weebly.com. Instagram:fofuhm | FB: Friends of the Family UHM"
+    },
+    {
+      "nameOfOrganization": "FSHN Council (Food Science & Human Nutrition)",
+      "type": "Academic/Professional",
+      "contactPerson": "Kristina Salazar",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "salazark@hawaii.edu. https://fshncouncil.wordpress.com. FB: FSHN Council at UH Manoa IG: FSHNCouncil"
+    },
+    {
+      "nameOfOrganization": "Generation Action at University of Hawaii-Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Taylor Schultz",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "trs9@hawaii.edu. FB: Generation Action Hawaii-Our Generation, Our Voice | IG: GenActionHI"
+    },
+    {
+      "nameOfOrganization": "Geography Club at the University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Stephany Calvillo",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "scalvill@hawaii.edu. . FB: University of Hawaii Geography"
+    },
+    {
+      "nameOfOrganization": "Geology Club at UH Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Zach Langdalen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "zl9@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Global Health Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Daniella Orias",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dorias@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Global Medical Brigade Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Tiana Elisara",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "elisarat@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Golden Key International Honour Society",
+      "type": "Honorary Society",
+      "contactPerson": "Lynn Nguyen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lnguye2@hawaii.edu. IG: goldenkey.uhm"
+    },
+    {
+      "nameOfOrganization": "Graduate Business Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Jerrin Ching",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jerrin@hawaii.edu. FB: Graduate Business Student Association (facebook.com/pg/gbsa.uhm)"
+    },
+    {
+      "nameOfOrganization": "Graduate Student Organization for the School of Social Work",
+      "type": "Academic/Professional",
+      "contactPerson": "Nikki Woolsey",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "woolsey2@hawaii.edu. FB: School of Social Work GSO"
+    },
+    {
+      "nameOfOrganization": "Graduate Women in Science Hawai'I Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Rachael Wade",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rmwade@hawaii.edu. gwishawaii.org. FB: GWIS Hawai'I | Twitter: gwishawaii | IG: gwishawaii"
+    },
+    {
+      "nameOfOrganization": "Grey Hats at UHM",
+      "type": "Academic/Professional",
+      "contactPerson": "Tyler Chong",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tcchong@hawaii.edu. greyhats.club/. "
+    },
+    {
+      "nameOfOrganization": "Hanwoori Hawaii",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Anna Peterson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "annap3@hawaii.edu. FB: hanwoorihawaii@gmail.com"
+    },
+    {
+      "nameOfOrganization": "Hawaii African Dance and Rhythm Club at UH",
+      "type": "Sports/Leisure",
+      "contactPerson": "Liza (Elizabeth) Simon",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "esimon@hawaii.edu. FB: facebook.sewafare.com"
+    },
+    {
+      "nameOfOrganization": "Hawaii Educational Research Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Thanh Truc Nguyen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "nguyen@hawaii.edu. hawaii.edu/hera. "
+    },
+    {
+      "nameOfOrganization": "Hawaii Shotokan Karate",
+      "type": "Sports/Leisure",
+      "contactPerson": "Scott Oshiro",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "scottosh@hawaii.edu. hawaiishotokankarate.com. "
+    },
+    {
+      "nameOfOrganization": "Hawaii Streams and Ecosystems",
+      "type": "Academic/Professional",
+      "contactPerson": "Kelly Lariosa",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "klariosa@hawaii.edu. yinphantsang.org. "
+    },
+    {
+      "nameOfOrganization": "Hawaii Student Entrepreneurs",
+      "type": "Academic/Professional",
+      "contactPerson": "Rose Wong",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rosewong@hawaii.edu. htpp://www.hsentrepreneurs.com. FB: Hawaii Student Entrepreneurs | TW: hsentrepreneurs"
+    },
+    {
+      "nameOfOrganization": "Hawaii Undergraduate Initiative",
+      "type": "Academic/Professional",
+      "contactPerson": "Akira Vernon",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "akirav@hawaii.edu. manoa.hawaii.edu/omsshui. FB: facebook.com/omsshui | IG:@omsshui"
+    },
+    {
+      "nameOfOrganization": "Her Campus",
+      "type": "Academic/Professional",
+      "contactPerson": "Lena Robledo",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lrobledo@hawaii.edu. www.hercampus.com/school/hawaii. FB: @hercampushawaii | IG: @hercampushawaii"
+    },
+    {
+      "nameOfOrganization": "Hillel at the University of Hawaii at Manoa",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Ariel Ashe-Ramirez",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "arielar@hawaii.edu. hillel.org. facebook.com/HillelHawaii"
+    },
+    {
+      "nameOfOrganization": "Honor Society at the University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Vika Latai Tatofi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "vtatofi@hawaii.edu. honorsociety.org. FB: honorsociety.org"
+    },
+    {
+      "nameOfOrganization": "Honors Student Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Tally Nakamura",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tallymhn@hawaii.edu. uhmso.weebly.com. IG: @uhm.hso"
+    },
+    {
+      "nameOfOrganization": "HOSA at UHM",
+      "type": "Academic/Professional",
+      "contactPerson": "Nicholas Loi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "nloi@hawaii.edu. hosauhm.weebly.com. FB: HOSA at UHM"
+    },
+    {
+      "nameOfOrganization": "Hui Aloha 'Aina Tuahine",
+      "type": "Academic/Professional",
+      "contactPerson": "Johnathan Arenoquicz",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jochanaa@hawaii.edu. FB: Ka Hui Aloha 'Aina Tuahine | IG: Ainatuahine"
+    },
+    {
+      "nameOfOrganization": "Hui Dui",
+      "type": "Academic/Professional",
+      "contactPerson": "Krystal Kakimoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kakimoto@hawaii.edu. huidui.weebly.com. Twitter: @huidui"
+    },
+    {
+      "nameOfOrganization": "Hui Malama Honua",
+      "type": "Academic/Professional",
+      "contactPerson": "Donna (Sweetie) Kuehu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dkuehu@hawaii.edu. FB: www.facebook.com/hmhatuhm/ | TW: hmhatuhm@hawaii.edu"
+    },
+    {
+      "nameOfOrganization": "Hui Ola Pono",
+      "type": "Academic/Professional",
+      "contactPerson": "Maya Uemoto",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "uemotom@hawaii.edu. http://publichealthhui.weebly.com/. FB: facebook.com/publichealthhui | Twitter: publichealthhui | IG: publichealthhui"
+    },
+    {
+      "nameOfOrganization": "Information Technology Management Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Lee Ann Cauilan",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lcauilan@hawaii.edu. itmahawaii.com"
+    },
+    {
+      "nameOfOrganization": "Innovators of Fashion",
+      "type": "Academic/Professional",
+      "contactPerson": "Kaycee Yoshioka",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kayceey@hawaii.edu. FB: UHM Innovators | IG: uhminnovators"
+    },
+    {
+      "nameOfOrganization": "Institute of Electrical and Electronics Engineers",
+      "type": "Academic/Professional",
+      "contactPerson": "Joslyn Jamada",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "joslynh@hawaii.edu. ieeeatuhm.com. FB: IEEE Student Branch-UH Manoa | TW: ieeeatuhm"
+    },
+    {
+      "nameOfOrganization": "Inter-Business Council",
+      "type": "Academic/Professional",
+      "contactPerson": "Kelli Sunabe",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ksunabe@hawaii.edu. in construction. IG: ibcmanoa"
+    },
+    {
+      "nameOfOrganization": "International Business Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Stefani Lew",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lew7@hawaii.edu. ibouhm.com. facebook.com/groups/ibouhm/"
+    },
+    {
+      "nameOfOrganization": "International Student Association",
+      "type": "Student Affairs",
+      "contactPerson": "John Wu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "wujohn@hawaii.edu. http://isauhm.com. FB: ISA UHM | IG: isauhm"
+    },
+    {
+      "nameOfOrganization": "Intervarsity Christian Fellowship",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Sabrina Summers",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "summers@hawaii.edu. FB: Intervarsity HI-LIGHT"
+    },
+    {
+      "nameOfOrganization": "J20+ at the University of Hawai'i",
+      "type": "Academic/Professional",
+      "contactPerson": "Dore Minatodani",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dorem@hawaii.edu. hawaii-j20.com. FB: Hawaiij20 | Twitter: hawaii_j20 | IG: instagram.com/hawaiij20"
+    },
+    {
+      "nameOfOrganization": "JABSOM Artists And Musicians (JAM)",
+      "type": "Sports/Leisure",
+      "contactPerson": "Daniella Orias",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dorias@hawaii.edu. sites.google.com/view/uhmjam. FB: JABSOM Artists and Musicians"
+    },
+    {
+      "nameOfOrganization": "JABSOM Partnership for Social Justice",
+      "type": "Academic/Professional",
+      "contactPerson": "Joseph Go",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "josephtg@hawaii.edu. FB: www.facebook.com/jabsompsj"
+    },
+    {
+      "nameOfOrganization": "JABSOM Patient Saftey and Quality Improvement",
+      "type": "Academic/Professional",
+      "contactPerson": "Tru Dang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "trudang@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "JABSOM Research Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Tru Dang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "trudang@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "JABSOM Surgery Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Tru Dang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "trudang@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "JABSOM Women's Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Tru Dang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "trudang@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Japanese Culture Club at University of Hawaii at Manoa",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Jin-Woo Nam",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jwnam@hawaii.edu. uhmjcc.weebly.com. "
+    },
+    {
+      "nameOfOrganization": "Jehovah's Witnesses at the University of Hawaii - Manoa ",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Roberta Baird",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "bairdr@hawaii.edu . "
+    },
+    {
+      "nameOfOrganization": "Jingju (Beijing Opera) Club",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Yunshan Feng",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "yunshan@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Jonathan Valdez for GSO President (TEMP RIO until April 13, 2018)",
+      "type": "Election",
+      "contactPerson": "Jonathan Valdez",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "valdezjo@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Judo Club/Team at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Muzamil Mahgoub Yahia",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "muzamil@hawaii.edu. www2.hawaii.edu/njudo. FB: Judo Team at the University of Hawaii"
+    },
+    {
+      "nameOfOrganization": "K-MIXX Dance Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Michelle Katahira",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mkatahira@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Ka Lama Kukui Indigenous Health Interest Review",
+      "type": "Academic/Professional",
+      "contactPerson": "Kayla Murata",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kmurata1@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Ka Mea Kolo",
+      "type": "Academic/Professional",
+      "contactPerson": "Priscilla Seabourn",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "pseabour@hawaii.edu. sites.google.com/site/kameakolo. FB: Ka Mea Kolo"
+    },
+    {
+      "nameOfOrganization": "KANOA at the University of Hawaii",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Richard Kahakui",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rkahakui@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Kappa Sigma",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Daniel P. Willis",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dw32@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Katipunan Club",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Sandra Magbual",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "magbuals@hawaii.edu. http://manoa.hawaii.edu/rio/katipunan. "
+    },
+    {
+      "nameOfOrganization": "Ke Koa 'Eha O Ke Alahele",
+      "type": "Academic/Professional",
+      "contactPerson": "Rommel Limjap",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ralimjap@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Kempo Club at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Kevin Hanaoka",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "hanaokak@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Kim's Tae Kwon Do at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Mason Nakadomari",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "nakadoma@hawaii.edu. www.hawaiitaekwondo.com | uhmkimtkd.wordpress.com. "
+    },
+    {
+      "nameOfOrganization": "Kinesiology and Rehabilitation Science Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Athena Azpeitia",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "athenaa@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "KWINGS",
+      "type": "Sports/Leisure",
+      "contactPerson": "Kylie Butts",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kylie@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "La Raza Unida at UH Manoa",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Salvador R. Manzo",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "smanzo@hawaii.edu. FB: larazaunidaatuhm | IG: larazaunida_uhm"
+    },
+    {
+      "nameOfOrganization": "LAMBDA Law Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Leslee Matthews",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lesleedm@hawaii.edu. http://lambdalaw.weebly.com. "
+    },
+    {
+      "nameOfOrganization": "Lamda Pi Eta",
+      "type": "Honorary Society",
+      "contactPerson": "Lena Robledo",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lrobledo@hawaii.edu. http://www.communications.hawaii.edu/com-organizations. FB:@LamdaPiEtaUHM"
+    },
+    {
+      "nameOfOrganization": "Language Documentation Training Center",
+      "type": "Academic/Professional",
+      "contactPerson": "A.L. Blake",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "blakeal@hawaii.edu. http://ling.hawaii.edu/ldtc/. FB: www.facebook.com/LDTC.UHM/ | TW: twitter.com/LDTC_Hawaii"
+    },
+    {
+      "nameOfOrganization": "Late Night Theatre",
+      "type": "Academic/Professional",
+      "contactPerson": "Todd Stephen Farley",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tsfarley@hawaii.edu. manoa.hawaii.edu/latenight. FB: Late Night Theatre at UHM"
+    },
+    {
+      "nameOfOrganization": "Latter-day Saint Student Association",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Steven James Fluckiger",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sfluckig@hawaii.edu. www.ldsces.org/honolulu. Honolulu LDS Institute of Religion"
+    },
+    {
+      "nameOfOrganization": "Laupahoehoe School of Thai Arts",
+      "type": "Sports/Leisure",
+      "contactPerson": "Ray Pena",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "pena@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "LGBTQ+ Rainbow Alliance",
+      "type": "Student Affairs",
+      "contactPerson": "Sarah Igarashi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sarah75@hawaii.edu. FB: UHM Rainbow Aliance | TW: RainbowAllianc3 | IG: uhm_rainbowalliance"
+    },
+    {
+      "nameOfOrganization": "Linguistics Society of Hawai'i",
+      "type": "Academic/Professional",
+      "contactPerson": "Ashleigh Smith",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "asmith28@hawaii.edu. ling.hawaii.edu/activities/lsh. FB: Linguistic Society of Hawai'i"
+    },
+    {
+      "nameOfOrganization": "Living Stone Chinese Christian Fellowship",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Lining Han",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "hanl@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Living Water Fellowship",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Linyan Li",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "linyanli@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Lotus",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Venkataraman Balaraman",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "venkatar@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Love Your Melon",
+      "type": "Academic/Professional",
+      "contactPerson": "Tess Raskowsky",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tessr@hawaii.edu. loveyourmelon.com. "
+    },
+    {
+      "nameOfOrganization": "Mana`olana",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Kekoa Digmon",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kdigmon@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Manoa Debate Union at the University of Hawai'i",
+      "type": "Academic/Professional",
+      "contactPerson": "Kenneth V. Go",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "gokv@hawaii.edu. FB: Manoa Debate Union"
+    },
+    {
+      "nameOfOrganization": "Manoa International Relations Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Keng-Chia (Charlie) Chao",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "chaok@hawaii.edu. FB: @mira.uhm"
+    },
+    {
+      "nameOfOrganization": "Manoa Medieval Combat Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Tyler Terada",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "terada3@hawaii.edu. FB: Manoa Medieval Combat Club"
+    },
+    {
+      "nameOfOrganization": "Manoa Mentors |Building Bright Futures for Children and Youth on Oahu",
+      "type": "Student Affairs",
+      "contactPerson": "Andrew Menor",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "menoran@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Manoa Peer Advisors (MPA)",
+      "type": "Academic/Professional",
+      "contactPerson": "Sheana Humphries",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sheanah@hawaii.edu. manoa.hawaii.edu/undergrad/mac/mpa. FB: facebook.com/manoapeeradvisors | IG: manoapeeradvisors"
+    },
+    {
+      "nameOfOrganization": "Manoa Pre-Law Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Kathleen Corpuz",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kcorpuz@hawaii.edu. Twitter @ManoaPreLaw"
+    },
+    {
+      "nameOfOrganization": "Manoa Scholars Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Justin Lau",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "justinla@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Manoa Sophomore Experience",
+      "type": "Academic/Professional",
+      "contactPerson": "Marissa Vensel",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mvensel@hawaii.edu. manoa.hawaii.edu/undergrad/sophomore. facebook.com/uhmse | @UHMSophomoreExp"
+    },
+    {
+      "nameOfOrganization": "Manoa Ultimate Disc",
+      "type": "Sports/Leisure",
+      "contactPerson": "Christopher Shuler",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cshuler@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Marianas Club at UH Manoa",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Jesi Lujan Bennett",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jesilb@hawaii.edu. FB: Marianas at UH Manoa"
+    },
+    {
+      "nameOfOrganization": "Marine Robotics at the University of Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Michael Huang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "miumh@hawaii.edu. FB: @marineroboticsuh"
+    },
+    {
+      "nameOfOrganization": "Medical Education Student Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Brandon Ing",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "biing@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Medical Student Mentorship Program",
+      "type": "Academic/Professional",
+      "contactPerson": "Russell Kackley",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rkackley@hawaii.edu. FB: Medical Student Mentorship Program"
+    },
+    {
+      "nameOfOrganization": "Micronesia Connections",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Diliaur Tellei",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "diliaur@hawaii.edu. FB: Micronesia Connections"
+    },
+    {
+      "nameOfOrganization": "Mortar Board Hui Po'okela Chapter at University of Hawai'I at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Rochelle Mae Cadiente",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rmdc@hawaii.edu. http://motarboardmanoa.weebly.com/. FB: Motar Board Honor Soiety at UH Manoa (Hui Po'okela Chapter) | motarboard.uhm"
+    },
+    {
+      "nameOfOrganization": "Movement Research",
+      "type": "Academic/Professional",
+      "contactPerson": "Joy Anger",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "joyanger@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Na Hawai'I 'Imi Loa Hui Haumana",
+      "type": "Student Affairs",
+      "contactPerson": "Erica T. Dias",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ecalistr@hawaii.edu. nhil.weebly.com. FB: Na Hawai'i 'Imi Loa | TW: @NaHawaiiImiLoa | IG: @nahawaiiimiloa"
+    },
+    {
+      "nameOfOrganization": "Na Koa",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Micah Kaaihue",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "micahkaa@hawaii.edu. http://www.oahuchurch.org. FB: http://www.facebook.com/pmexonecampus"
+    },
+    {
+      "nameOfOrganization": "Na Koa Lani Booster Club",
+      "type": "Academic/Professional",
+      "contactPerson": "John Chee",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "johnchee@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "National Panhellenic Conference",
+      "type": "Academic/Professional",
+      "contactPerson": "Laua'e Schweitzer",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lauaes@hawaii.edu. uhm.panhellenic.squarespace.com. FB: Uuhm.panhel | IG: @uhm.panhel"
+    },
+    {
+      "nameOfOrganization": "National Society of Collegiate Scholars",
+      "type": "Academic/Professional",
+      "contactPerson": "Kealani Turingan",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kturinga@hawaii.edu. nscs.org. The National Socieety of Collegiate Scholars at the UH-Manoa"
+    },
+    {
+      "nameOfOrganization": "Newman Club",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Reta Youkhana",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "reta808@hawaii.edu. www.newmanhawaii.com. FB: www.facebook.com/newmanhawaii"
+    },
+    {
+      "nameOfOrganization": "Nongkrong Yuk! Indonesian Club",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Sigit Haryadi",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sharyadi@hawaii.edu. FB: Nongkrong Yuk! Indonesian Club UH Manoa"
+    },
+    {
+      "nameOfOrganization": "OB/GYN Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Lauren Ing",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "laing2@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Pacific Advocates People Association",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Daven Chang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "huiopapa@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Pacific-Asian Legal Studies Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Melody Leilani Kaohu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mkaohu7@hawaii.edu. manoa.hawaii.edu/law/pals/palso.html. FB: https://www.facebook.com/Pacific-Asian-Legal-Studies-Organization-PALSO-107142916056567"
+    },
+    {
+      "nameOfOrganization": "Partners in Health Engage at the University of Hawai'i, Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Katriel Wong",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "katriel@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Pediatric Interest Group",
+      "type": "Academic/Professional",
+      "contactPerson": "Mari Grief",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mgrief@hawaii.edu. FB: JABSOM Pediatric Interest Group (PIG)"
+    },
+    {
+      "nameOfOrganization": "Peer Mentor 'Ohana",
+      "type": "Academic/Professional",
+      "contactPerson": "Shauna Sibonga",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "shaunaks@hawaii.edu. www2.hawaii.edu/~pmo. FB: facebook.com/peermentorohana"
+    },
+    {
+      "nameOfOrganization": "Phi Alpha Honor Society Nu Sigma Chapter (Nu Sigma)",
+      "type": "Academic/Professional",
+      "contactPerson": "Nicole Woolsey",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "woolsey2@hawaii.edu. . FB: facebook.com/uhmnusigma | Twitter: @phialphanusigma | IG: @phialphanu"
+    },
+    {
+      "nameOfOrganization": "Phi Alpha Theta (Alpha Beta Epsilon)",
+      "type": "Academic/Professional",
+      "contactPerson": "Garrett Hillyer",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ghillyer@hawaii.edu. http://phialphatheta.org. FB: Phi Alpha Theta Manoa (Alpha Beta Epsilon)"
+    },
+    {
+      "nameOfOrganization": "Phi Mu",
+      "type": "Academic/Professional",
+      "contactPerson": "Ashley Aikau-Osurman",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ashleyao@hawaii.edu. hawaii.phimu.org. FB: facebook.com/HawaiiPhiMu | IG:@hawaiiphimu"
+    },
+    {
+      "nameOfOrganization": "Philosophy Students Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Michael Dufresne",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dufresne@hawaii.edu. . FB: UH Manoa Philosophy Student Association"
+    },
+    {
+      "nameOfOrganization": "Phoenix \\m/ Dance Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Jathryn Racasa",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jracasa@hawaii.edu. . FB: PhoenixShaka | Youtube: PhoenixShaka7"
+    },
+    {
+      "nameOfOrganization": "Phoenix Dance Chamber",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Chantelle Sonoda",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "csonoda2@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Pi Gamma Mu",
+      "type": "Honorary Society",
+      "contactPerson": "Ariel Ashe-Ramirez",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "arielar@hawaii.edu. pigammamu.org. "
+    },
+    {
+      "nameOfOrganization": "Pi Tau Sigma",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Keanu Kim",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "keanukim@hawaii.edu. uhmsigmapi.wixsite.com/pitau. "
+    },
+    {
+      "nameOfOrganization": "Political Science Club at UH Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Justin L. Menina",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "polsclub@hawaii.edu . "
+    },
+    {
+      "nameOfOrganization": "Powerlifting Club at the University of Hawai'I at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Jaron Yamane",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jarony@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Pre-Medical Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Jessica Cabusog",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jacabusog@hawaii.edu. premed-at-uhm.squarespace.com. FB: Pre-Medical Association at UH Manoa"
+    },
+    {
+      "nameOfOrganization": "Pre-Pharmacy Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Kiana Lee",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "klee25@hawaii.edu. www2.hawaii.edu/~ppa. "
+    },
+    {
+      "nameOfOrganization": "Pre-Veterinary Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Threnody Brown Earley-Clark",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "threnody@hawaii.edu. http://manoa.hawaii.edu/rio/prevet/. FB: Pre-Veterinary Club at the University of Hawaii at Manoa | IG: prevetclub_uhm"
+    },
+    {
+      "nameOfOrganization": "Primary Care Progress",
+      "type": "Academic/Professional",
+      "contactPerson": "Kayla Murata",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kmurata1@hawaii.edu. primarycareprogress.org/groups/home/8/. "
+    },
+    {
+      "nameOfOrganization": "Professional Development Organizing Committee",
+      "type": "Academic/Professional",
+      "contactPerson": "Lindsey Benjamin",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lrb@hawaii.edu. http://soestpdoc.weebly.com. "
+    },
+    {
+      "nameOfOrganization": "Progressive Librarians Guild",
+      "type": "Academic/Professional",
+      "contactPerson": "Holiday Vega",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "costal@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Psi Chi International Honor Society at the University of Hawaii at Manoa",
+      "type": "Honorary Society",
+      "contactPerson": "Danielle Guevarra",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dguevarr@hawaii.edu. psichimanoa.wixsite.com/psichimanoa. FB: facebook.com/PsiChiManoa"
+    },
+    {
+      "nameOfOrganization": "Psi Sigma: The Psychology Connection",
+      "type": "Academic/Professional",
+      "contactPerson": "Julie Anne Bacarro",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jafb@hawaii.edu. thepsychologyconnection.blogspot.com. FB: Psi Sigma: The Psychology Connection"
+    },
+    {
+      "nameOfOrganization": "Public Administration Student Organization at the University of Hawai'i at Manoa (need orientation)",
+      "type": "Academic/Professional",
+      "contactPerson": "Shauna Graner",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sleake@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Public Relations Student Society of America",
+      "type": "Academic/Professional",
+      "contactPerson": "Janelle Feliciano",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jpf4@hawaii.edu. FB: PRSSA Hawaii"
+    },
+    {
+      "nameOfOrganization": "Queen Nicki Minaj Fanclub",
+      "type": "Sports/Leisure",
+      "contactPerson": "Tyler Godinet",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "gofiness@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Rainbow Jugglers Juggling Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Stephen Case",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "stevec@hawaii.edu. www.rainbowjugglers.org. "
+    },
+    {
+      "nameOfOrganization": "Reaching Our Campus Ministries",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Grace Peralta",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "peraltag@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Reformed University Fellowship",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Shayna Price",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "shaynasp@hawaii.edu. . FB: rufhawaii"
+    },
+    {
+      "nameOfOrganization": "Regents and Presidential Scholars Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Arianna Kirschenbaum",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "akkirs20@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Renewable Energy Team",
+      "type": "Academic/Professional",
+      "contactPerson": "Angusina Campbell",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "angusina@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Resident Assistant Council",
+      "type": "Student Affairs",
+      "contactPerson": "Matthew Markham",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "markhamm@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Revolution Books Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Gary Park",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "gpak@hawaii.edu. . FB: Revolution Books Honolulu"
+    },
+    {
+      "nameOfOrganization": "Rotaract Club at the University of Hawaii at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Paige Cajudoy",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "paigesc@hawaii.edu. . FB: Rotaract Club at the University of Hawaii at Manoa | IG: @rotaractuh"
+    },
+    {
+      "nameOfOrganization": "S-Cubed",
+      "type": "Academic/Professional",
+      "contactPerson": "Barbara Watanabe",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "blwatana@hawaii.edu. manoa.hawaii.edu.undergrad/sss/. "
+    },
+    {
+      "nameOfOrganization": "Salsa Dancing at UHM",
+      "type": "Sports/Leisure",
+      "contactPerson": "Astrid Leitner",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "aleitner@hawaii.edu. . FB: SexyFace Salsa at UHM"
+    },
+    {
+      "nameOfOrganization": "Science Communications 'Ohana",
+      "type": "Academic/Professional",
+      "contactPerson": "Elisha Wood-Charlson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "elishawc@hawaii.edu. scicommohana.wordpress.com. FB:scicomm.ohana"
+    },
+    {
+      "nameOfOrganization": "Second Language Studies Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Uy-Di Nancy Lee",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "le6@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Sierra Student Coalition at the University of Hawai'i",
+      "type": "Academic/Professional",
+      "contactPerson": "Charessa Fryc",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "charessa@hawaii.edu. https://sierraclubhawaii.org. "
+    },
+    {
+      "nameOfOrganization": "Silver Wings",
+      "type": "Academic/Professional",
+      "contactPerson": "Russell Publico",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rdp6@hawaii.edu. FB: facebook.com/SilverWingsatUHM"
+    },
+    {
+      "nameOfOrganization": "Smash Bros. Club at the Unviersity of Hawaii at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Thomas Choe",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tchoe@hawaii.edu. FB: facebook.com/groups/UHMsmash"
+    },
+    {
+      "nameOfOrganization": "Society for Conservation Biology, Hawaii Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Nathaniel Wehr",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "nwehr@hawaii.edu. www.hiscb.org. Twitter: @HISCB"
+    },
+    {
+      "nameOfOrganization": "Society for Human Resources Management",
+      "type": "Academic/Professional",
+      "contactPerson": "Emolynne Rivera",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "emolynne@hawaii.edu. shrmuhm.com. FB: The SHRM Aloha Chapter|IG: @shrmaloha"
+    },
+    {
+      "nameOfOrganization": "Society of American Archivists Student Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Casie Azuma",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cazuma@hawaii.edu. hisaasc.weebly.com. FB:SAAscUHM"
+    },
+    {
+      "nameOfOrganization": "Society of Automotive Engineers at UH Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Raina Duenas",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rainaan@hawaii.edu. saemanoa.com. FB: Society of Automotive Engineers at University of Hawaii Manoa"
+    },
+    {
+      "nameOfOrganization": "Society of Nepalese in Hawaii",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Mandoj Rai",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mandhoj@hawaii.edu. www.esneha.org. FB: Society of Nepalese in Hawaii"
+    },
+    {
+      "nameOfOrganization": "Society of Physics Students at the University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Tommy Lam",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "tommy9@hawaii.edu. www.phys.hawaii.edu/~sps/. www.facebook.com/groups/164290950433005"
+    },
+    {
+      "nameOfOrganization": "Society of Women Engineers",
+      "type": "Academic/Professional",
+      "contactPerson": "Reagan Paz",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "reaganp@hawaii.edu. uhm.swe.org. FB: www.facebook.com/swe808 | IG: swehawaii"
+    },
+    {
+      "nameOfOrganization": "Special Libraries Association Student Chapter",
+      "type": "Academic/Professional",
+      "contactPerson": "Laila Brown",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lailab@hawaii.edu. uhmsla.wordpress.com. "
+    },
+    {
+      "nameOfOrganization": "Speech Communication Society",
+      "type": "Sports/Leisure",
+      "contactPerson": "Chon Kin Cheang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "cheangck@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "STAR Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Sharon Widup",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "swidup@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Student Nurses Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Amanda Sakai",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "asakai8@hawaii.edu. www.nursing.hawaii.edu/sna. FB: Student Nurses Association at UH Manoa"
+    },
+    {
+      "nameOfOrganization": "Student Veteran Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Larry Mays",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "lmays901@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Student with Keiki @ the University of Hawaii - Manoa",
+      "type": "Student Affairs",
+      "contactPerson": "Angelique K. Solomon",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "gotkids@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Students for Public Outreach + Civil Education",
+      "type": "Academic/Professional",
+      "contactPerson": "Dwane Tegman",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dwane2@hawaii.edu. FB: http://www.facebook.com/uh.spoce"
+    },
+    {
+      "nameOfOrganization": "Students for Success",
+      "type": "Academic/Professional",
+      "contactPerson": "Tyler Godinet",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "godinett@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Students in Pathology at John A. Burns School of Medicine",
+      "type": "Academic/Professional",
+      "contactPerson": "Eddy Leung",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ekleung@hawaii.edu. sites.google.com/site/studentsinpathology/home. "
+    },
+    {
+      "nameOfOrganization": "Surf Team at the University of Hawaii at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Moubeen Jamal",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mJamal@hawaii.edu. IG: @uhmsurfteam"
+    },
+    {
+      "nameOfOrganization": "Surfrider Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Dominique Pena",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "penadomi@hawaii.edu. oahu.surfrider.org. FB: Surfrider Fundation at UH Manoa"
+    },
+    {
+      "nameOfOrganization": "Table Tennis Club at UH Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Kevin (Sonny) Ornellas",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kevindo4@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Taiwanese Student Association",
+      "type": "Student Affairs",
+      "contactPerson": "Yen-Zhi Peng",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "yenzhi@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Tau Kappa Epsilon ",
+      "type": "Sorority/Fraternity",
+      "contactPerson": "Christopher Highland",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "highland@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Tennis Club at the University of Hawai'I at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Calvin Lee",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "calvinle@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Thai Studies Club",
+      "type": "Academic/Professional",
+      "contactPerson": "Wanitcha Wannasook",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "wanitcha@hawaii.edu. thaistudieshawaii.wordpress.com. "
+    },
+    {
+      "nameOfOrganization": "That Sandwich Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Reinier Paul Santiago",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rprs@hawaii.edu. FB: fb.com/thatsandwichclub | IG: @thatsandwichclub"
+    },
+    {
+      "nameOfOrganization": "The ASPRS Student Chapter at the University of Hawaii at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Katie Taladay",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "taladay@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "The Azimov Project",
+      "type": "Academic/Professional",
+      "contactPerson": "Skye Nakamura",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "skyekn@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "The Ethomusicology Association",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Christopher Serrano",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "serrano6@hawaii.edu. www.emauhm.com. "
+    },
+    {
+      "nameOfOrganization": "The iMua Society at the University of Hawaii",
+      "type": "Academic/Professional",
+      "contactPerson": "Scott Allen",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sfalle2@hawaii.edu. manoa.cc. "
+    },
+    {
+      "nameOfOrganization": "The Lifesaver Club at UH Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Raychelle Valiente",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "rtv@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "The Pre-Dental Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Catherine Truong",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "truongc@hawaii.edu. manoa-hawaii.edu/undergrad/pac/dental. IG: @hawaiipredental"
+    },
+    {
+      "nameOfOrganization": "The Pueo Library",
+      "type": "Sports/Leisure",
+      "contactPerson": "Edwin Bond",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "iii@hawaii.edu. www.pueolibrary.com. FB: Pueo Library IG: Pueo Library"
+    },
+    {
+      "nameOfOrganization": "The Write Club (formerly Pens & Friends)",
+      "type": "Academic/Professional",
+      "contactPerson": "Victoria Bui",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "vbui@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Theatre and Dance Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Michelle Huynh",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "muhuynh@hawaii.edu. FB: https://www.facebook.com/TADA.UHM/"
+    },
+    {
+      "nameOfOrganization": "Themed Entertainment Association at the University of Hawai`I at Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Colin Happ",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "chapp2@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Timpuyog Organization",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Anjanette Pablo",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "abpablo@hawaii.edu. manoa.hawaii.edu/rio/timpuyog. FB: Timpuyog Ilokano | TW: @timpuyogilokano"
+    },
+    {
+      "nameOfOrganization": "Tinumasalasala a Samoa Student Organization",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Aovai Cole",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "aovaic@hawaii.edu. FB:Tinumasalasala a Samoa Student Organization (TASSO)"
+    },
+    {
+      "nameOfOrganization": "Transcendental Meditation Club",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Brandon Fejeran",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "bfejeran@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Transformational Community",
+      "type": "Student Affairs",
+      "contactPerson": "Jay Huang",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "huang4@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Travel 2 Change at the University of Hawaii at Manoa",
+      "type": "Sports/Leisure",
+      "contactPerson": "Doris Masser",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "dorismas@hawaii.edu. www.travel2change.org. FB: @travel2change | TW: @travel2change | IG & Youtube: @travel2change"
+    },
+    {
+      "nameOfOrganization": "Travel Industry Management Student Association",
+      "type": "Academic/Professional",
+      "contactPerson": "Kelsey Ann Vea",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kvea4@hawaii.edu. timsaatuhm.com. FB:Timsa at UHM | Instagram: @timsaatuhm"
+    },
+    {
+      "nameOfOrganization": "Tropical Plant & Soil Sciences Graduate Student Organization",
+      "type": "Academic/Professional",
+      "contactPerson": "Kauahi Perez",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "bronsonp@hawaii.edu. FB: https://www.facebook.com/tpssgso | TW: @TPSS_GSO"
+    },
+    {
+      "nameOfOrganization": "Tzu Chi Collegiate Association Hawaii Chapter",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Xiaoting Liu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "xliu3@hawaii.edu. FB: Tzu Chi Collegiate Association of Hawaii"
+    },
+    {
+      "nameOfOrganization": "Upena",
+      "type": "Sports/Leisure",
+      "contactPerson": "Christine Ulandez",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "culandez@hawaii.edu. FB: Upena Club"
+    },
+    {
+      "nameOfOrganization": "Upsilon Rho Beta Honor Society",
+      "type": "Academic/Professional",
+      "contactPerson": "Marc Malate",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mmalate@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Upsilon Rho Beta Honor Society",
+      "type": "Academic/Professional",
+      "contactPerson": "Marc Malate",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "mmalate@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Victoria's Secret PINK",
+      "type": "Sports/Leisure",
+      "contactPerson": "Shea Click",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "sclick@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Vietnamese Student Organization at UH Manoa",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Kevin Ly",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kevinly@hawaii.edu. vsoatuhm.webs.com. FB: Vietnamese Student Organization at UH"
+    },
+    {
+      "nameOfOrganization": "Volunteers for Intercultural and Definitive Adventures",
+      "type": "Sports/Leisure",
+      "contactPerson": "Louise Lu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "louiselu@hawaii.edu. vidawolunteer.org. IG: @VIDA Hawaii"
+    },
+    {
+      "nameOfOrganization": "Wai'anapanapa",
+      "type": "Ethnic/Cultural",
+      "contactPerson": "Ashley Rapoza",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "arapoza@hawaii.edu. FB: Halau Hula Kawaili'ula | Other: (808)-286-5115"
+    },
+    {
+      "nameOfOrganization": "Waikiki Acrobatic Troupe",
+      "type": "Sports/Leisure",
+      "contactPerson": "Corey Pak",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "coreypak@hawaii.edu. FB: Waikiki Acrobatic Troupe"
+    },
+    {
+      "nameOfOrganization": "Warrior Volunteer Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Laura Jones",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ljones42@hawaii.edu. warriorvolunterclub.weebly.com. FB: @warriorvolunteerclub | TW: @wvc_at_uhm |IG: @wvc_at_uhm"
+    },
+    {
+      "nameOfOrganization": "Warriors Climbing Club",
+      "type": "Sports/Leisure",
+      "contactPerson": "Spencer Keenan",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "skeenan@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Wesley Foundation Hawaii",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Kaleo Lum",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "kaleol@hawaii.edu. www.hawaiiwesleyfoundation.org. FB: WesleyFoundationHawaii | IG: wesleyfoundationhawaii"
+    },
+    {
+      "nameOfOrganization": "WOKE Society at University of Hawai'I at Manoa",
+      "type": "Student Affairs",
+      "contactPerson": "Logan McPherson",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "loganmcp@hawaii.edu. . FB: WOKE Society at UHM |TW: wokrsocietyuhm"
+    },
+    {
+      "nameOfOrganization": "World of Good",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Delaney Coleman",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "delaneyc@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "YAF - Young Americans for Freedom",
+      "type": "Academic/Professional",
+      "contactPerson": "Nicholas R. Ochs",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "ochs@hawaii.edu. FB: YAF | Twitter: YAF"
+    },
+    {
+      "nameOfOrganization": "Young Americans for Liberty at UH Manoa",
+      "type": "Academic/Professional",
+      "contactPerson": "Maggie Hinshaw",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "maggieh@hawaii.edu. facebook.com/yalatuhm. FB: facebook.com/yalatuhm | IG: @yalatuhm"
+    },
+    {
+      "nameOfOrganization": "Young Democratic Socialists of America",
+      "type": "Academic/Professional",
+      "contactPerson": "Timothy Zhu",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "timothyz@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Young Life",
+      "type": "Religious/Spiritual",
+      "contactPerson": "Julian B Lee",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "jbilee@hawaii.edu. "
+    },
+    {
+      "nameOfOrganization": "Young Progressives Demanding Action",
+      "type": "Academic/Professional",
+      "contactPerson": "Landon Li",
+      "image": "https://picsum.photos/300/150/?random",
+      "owner": "admin@foo.com",
+      "contactAndClubInfo": "landonli@hawaii.edu. ypdahawaii.org. FB: facebook.com/ypdahawaii"
     }
   ]
 }
