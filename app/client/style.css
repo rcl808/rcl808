@@ -23,6 +23,7 @@
 }
 .homepage {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .clubpage-bottom-background {
@@ -31,4 +32,11 @@
 
 .clubpage-name {
   margin:0px;
+}
+
+.footer-background {
+  background-color: #000000;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }

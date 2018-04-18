@@ -1,16 +1,51 @@
 import React from 'react';
+import { Container, Grid, Header, Icon } from 'semantic-ui-react';
+
 
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
-    const divStyle = { paddingTop: '15px', color: 'white' };
-    return (
+      return (
         <footer>
-          <div style={divStyle} className="ui center aligned container">
-            <hr />
-              Department of Information and Computer Sciences <br />
-              University of Hawaii<br />
-              Honolulu, HI 96822
+          <div className='footer-background'>
+            <Container textAlign='center'>
+              <Grid container verticalAlign='middle' columns={4}>
+                <Grid.Column textAlign='right'>
+                  <Icon name='search' size='huge' color='blue' />
+                </Grid.Column>
+                <Grid.Column textAlign='left'>
+                  <Header as='h2' inverted>Find a Club</Header>
+                  Discover UH Clubs
+                  <br/>
+                  <a href="">
+                    Explore
+                    <Icon name='arrow right' color='blue' />
+                  </a>
+                </Grid.Column>
+                <Grid.Column textAlign='right'>
+                  <Icon name='add' size='huge' color='blue' />
+                </Grid.Column>
+                <Grid.Column textAlign='left'>
+                  <Header as='h2' inverted>Create a Club</Header>
+                  Create your own club to make UH Manoa the best place to be.
+                  <br/>
+                  <a href="">
+                    Create a Club
+                    <Icon name='right arrow' color='blue' />
+                  </a>
+                </Grid.Column>
+              </Grid>
+              <Header as='h2' inverted>
+                <Header.Content inverted>
+                  Rad Club List
+                  <Header.Subheader inverted>
+                    University of Hawaii at Manoa
+                    <br/>
+                    Honolulu, HI 96822
+                  </Header.Subheader>
+                </Header.Content>
+              </Header>
+            </Container>
           </div>
         </footer>
     );
