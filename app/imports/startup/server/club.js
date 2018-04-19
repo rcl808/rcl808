@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Roles } from 'meteor/alanning:roles';
-import { Clubs } from '../../api/contact/club.js';
+import { Clubs } from '../../api/club/club.js';
 
 /** Initialize the database with a default data document. */
 function addData(data) {
