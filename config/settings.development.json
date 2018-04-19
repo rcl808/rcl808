@@ -11,7 +11,7 @@
     { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
   ],
 
-  "defaultContacts": [
+  "defaultClubs": [
     {
       "nameOfOrganization": "Academy for Creative Media Student Association",
       "type": "Academic/Professional",

@@ -3,7 +3,7 @@ import { Card, Image, Button } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
 import {Bert} from 'meteor/themeteorchef:bert';
-import { Clubs } from '/imports/api/contact/contact';
+import { Clubs } from '/imports/api/club/club';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class Club extends React.Component {
@@ -27,8 +27,8 @@ class Club extends React.Component {
   render() {
     return (
         <Card centered>
+          <Image src={this.props.club.image} />
           <Card.Content>
-            <Image floated='right' size='mini' src={this.props.club.image} />
             <Card.Header>
               {this.props.club.nameOfOrganization}
             </Card.Header>
@@ -37,10 +37,9 @@ class Club extends React.Component {
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
-            <Link to={`/edit/${this.props.club._id}`}>Edit</Link>
-          </Card.Content>
+            contact info: {this.props.club.contactAndClubInfo}
+            </Card.Content>
           <Card.Content extra>
-            <Button basic onClick={this.onClick}>Delete</Button>
           </Card.Content>
         </Card>
     );
