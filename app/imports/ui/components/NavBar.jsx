@@ -16,8 +16,7 @@ class NavBar extends React.Component {
           <Header as='h2' color='red'>Rad Club List</Header>
         </Menu.Item>
         {this.props.currentUser ? (
-            [<Menu.Item as={NavLink} activeClassName="active" exact to="/add" key='add'>Add Contact</Menu.Item>,
-              <Menu.Item as={NavLink} activeClassName="active" exact to="/list" key='list'>List Contacts</Menu.Item>]
+            [<Menu.Item as={NavLink} activeClassName="active" exact to="/myclubs" key='myclubs'>My Clubs</Menu.Item>]
         ) : ''}
         {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
             <Menu.Item as={NavLink} activeClassName="active" exact to="/admin" key='admin'>Admin</Menu.Item>
@@ -26,6 +25,7 @@ class NavBar extends React.Component {
         <Menu.Item position="right" as={NavLink} exact to="/homepage">Homepage Mockup Page</Menu.Item>
         <Menu.Item as={NavLink} exact to="/createclub">Create Club Mockup Page</Menu.Item>
         <Menu.Item as={NavLink} exact to="/clubpage">Club Page Mockup Page</Menu.Item>
+        <Menu.Item as={NavLink} exact to="/clubcategory">Club Category Mockup Page</Menu.Item>
         <Menu.Item>
           {this.props.currentUser === '' ? (
             <Dropdown text="Login" pointing="top right" icon={'user'}>
