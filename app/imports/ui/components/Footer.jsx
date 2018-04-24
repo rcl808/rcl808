@@ -10,11 +10,15 @@ class Footer extends React.Component {
           <div className='footer-background'>
             <Container textAlign='center'>
               <Grid container verticalAlign='middle' columns={4}>
+                <Grid.Row centered>
+                  <Header as='h2' inverted> How RCL Works </Header>
+                </Grid.Row>
+                <Grid.Row>
                 <Grid.Column textAlign='right'>
                   <Icon name='search' size='huge' color='blue' />
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <Header as='h2' inverted>Find a Club</Header>
+                  <Header as='h3' inverted>Find a Club</Header>
                   Discover UH Clubs
                   <br/>
                   <a href="">
@@ -26,7 +30,7 @@ class Footer extends React.Component {
                   <Icon name='add' size='huge' color='blue' />
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <Header as='h2' inverted>Create a Club</Header>
+                  <Header as='h3' inverted>Create a Club</Header>
                   Create your own club to make UH Manoa the best place to be.
                   <br/>
                   <a href="">
@@ -34,6 +38,7 @@ class Footer extends React.Component {
                     <Icon name='right arrow' color='blue' />
                   </a>
                 </Grid.Column>
+                </Grid.Row>
               </Grid>
               <Header as='h2' inverted>
                 <Header.Content inverted>
