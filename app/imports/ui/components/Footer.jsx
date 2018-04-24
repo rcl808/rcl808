@@ -10,9 +10,6 @@ class Footer extends React.Component {
           <div className='footer-background'>
             <Container textAlign='center'>
               <Grid container verticalAlign='middle' columns={4}>
-                <Grid.Row centered>
-                  <Header as='h2' inverted> How RCL Works </Header>
-                </Grid.Row>
                 <Grid.Row>
                 <Grid.Column textAlign='right'>
                   <Icon name='search' size='huge' color='blue' />
@@ -39,6 +36,13 @@ class Footer extends React.Component {
                   </a>
                 </Grid.Column>
                 </Grid.Row>
+              <Grid.Row>
+                <Container>
+                  <div>
+                  <hr/>
+                  </div>
+                </Container>
+              </Grid.Row>
               </Grid>
               <Header as='h2' inverted>
                 <Header.Content inverted>
