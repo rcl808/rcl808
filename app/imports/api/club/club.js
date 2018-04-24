@@ -11,8 +11,22 @@ const ClubSchema = new SimpleSchema({
   type: String,
   contactPerson: String,
   image: String,
-  owner: String,
-  contactAndClubInfo: String,
+  email: {
+    type: String,
+    optional: true,
+  },
+  rioWebsite: {
+    type: String,
+    optional: true,
+  },
+  socialNetwork: {
+    type: String,
+    optional: true,
+  },
+  facebook: {
+    type: String,
+    optional: true,
+  },
 }, { tracker: Tracker });
 
 /** Attach this schema to the collection. */
