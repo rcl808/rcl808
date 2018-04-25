@@ -13,6 +13,7 @@ import ClubPage from '../pages/ClubPage';
 import MyClubs from '../pages/MyClubs';
 import ListContacts from '../pages/ListContacts';
 import ListContactsAdmin from '../pages/ListContactsAdmin';
+import MyClubsAdmin from '../pages/MyClubsAdmin';
 import AddContact from '../pages/AddContact';
 import EditContact from '../pages/EditContact';
 import NotFound from '../pages/NotFound';
@@ -38,7 +39,7 @@ class App extends React.Component {
               <ProtectedRoute path="/list" component={ListContacts}/>
               <ProtectedRoute path="/add" component={AddContact}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
-              <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/>
+              <AdminProtectedRoute path="/admin" component={MyClubsAdmin}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>

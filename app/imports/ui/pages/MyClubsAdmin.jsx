@@ -1,24 +1,17 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Container, Header, Loader, Card } from 'semantic-ui-react';
+import { Container, Table, Header, Loader, Card } from 'semantic-ui-react';
 import { Clubs } from '/imports/api/club/club';
+import Club from '/imports/ui/components/Club';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import Club from '/imports/ui/components/Club';
-import { UserClubs } from '/imports/api/userclubs/userclubs';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
-class MyClubs extends React.Component {
+class MyClubsAdmin extends React.Component {
 
   /** If the subscription(s) have been received, render the page, otherwise show a loading icon. */
   render() {
     return (this.props.ready) ? this.renderPage() : <Loader>Getting data</Loader>;
-  }
-
-  filterClubs() {
-    const myClubList = _.pluck(this.props.userClubs, 'club');
-    const myClubs = _.flatten(_.map(myClubList, (name) => _.where(this.props.clubs, { nameOfOrganization: name })));
-    return myClubs;
   }
 
   /** Render the page once subscriptions have been received. */
@@ -26,9 +19,9 @@ class MyClubs extends React.Component {
     return (
         <div className='my-clubs-page'>
           <Container>
-            <Header as="h2" textAlign="center">My Clubs</Header>
+            <Header as="h2" textAlign="center">Club List Admin</Header>
             <Card.Group>
-              {this.filterClubs().map((clubs, index) => <Club key={index} club={clubs}/>)}
+              {this.props.clubs.map((club, index) => <Club key={index} club={club}/>)}
             </Card.Group>
           </Container>
         </div>
@@ -37,20 +30,17 @@ class MyClubs extends React.Component {
 }
 
 /** Require an array of Stuff documents in the props. */
-MyClubs.propTypes = {
+MyClubsAdmin.propTypes = {
   clubs: PropTypes.array.isRequired,
-  userClubs: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
 
 /** withTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker */
 export default withTracker(() => {
-  // Get access to the list of clubs.
-  const subscription = Meteor.subscribe('Clubs');
-  const subscription2 = Meteor.subscribe('UserClubs');
+  // Get access to Stuff documents.
+  const subscription = Meteor.subscribe('ClubsAdmin');
   return {
-    userClubs: UserClubs.find({}).fetch(),
     clubs: Clubs.find({}).fetch(),
-    ready: subscription.ready() && subscription2.ready(),
+    ready: subscription.ready(),
   };
-})(MyClubs);
+})(MyClubsAdmin);

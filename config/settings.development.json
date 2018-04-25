@@ -4,11 +4,9 @@
     { "email": "john@foo.com", "password": "changeme" }
   ],
 
-  "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
+  "defaultUserClubs": [
+    {"user": "john@foo.com", "club": "Accounting Club"},
+    {"user": "john@foo.com", "club": "AECT- Hawai'i"}
   ],
 
   "defaultClubs": [
@@ -25,8 +23,9 @@
       "contactPerson": "Michael Jitchaku",
       "image": "https://picsum.photos/300/150/?random",
       "email": "mjitchak@hawaii.edu",
-      "rioWebsite": "www.acuhmanoa.com",
-      "socialNetwork": "FB:Accounting Club at UH"
+      "rioWebsite": "http://www.acuhmanoa.com",
+      "socialNetwork": "FB:Accounting Club at UH",
+      "facebook": "https://www.facebook.com/acctclubuh/"
     },
     {
       "nameOfOrganization": "Advocates for Public Interest Law",
@@ -34,8 +33,9 @@
       "contactPerson": "Kenory Khuy",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kenory@hawaii.edu",
-      "rioWebsite": "apilatuh.weebly.com",
-      "socialNetwork": "FB: www.facebook.com/groups/64178184733"
+      "rioWebsite": "https://apilatuh.weebly.com",
+      "socialNetwork": "FB: www.facebook.com/groups/64178184733",
+      "facebook": "https://www.facebook.com/groups/64178184733"
     },
     {
       "nameOfOrganization": "AECT- Hawai'i",
@@ -58,8 +58,9 @@
       "contactPerson": "Cameron Bunch",
       "image": "https://picsum.photos/300/150/?random",
       "email": "cmbunch@hawaii.edu",
-      "rioWebsite": "uhnavs.org",
-      "socialNetwork": "FB: Aloha Navs"
+      "rioWebsite": "https://www.uhnavs.com",
+      "socialNetwork": "FB: Aloha Navs",
+      "facebook": "https://www.facebook.com/groups/256370297879900/about/"
     },
     {
       "nameOfOrganization": "Aloha Runnning Club at the University of Hawai`I at Manoa",
@@ -74,7 +75,8 @@
       "contactPerson": "Alysia Martin",
       "image": "https://picsum.photos/300/150/?random",
       "email": "alysiaam@hawaii.edu",
-      "socialNetwork": "FB: alohathon.uhm | Twitter: @alohathon_uhm | IG: alohathon.uhm"
+      "socialNetwork": "FB: alohathon.uhm | Twitter: @alohathon_uhm | IG: alohathon.uhm",
+      "facebook": "https://www.facebook.com/alohathon.uhm/"
     },
     {
       "nameOfOrganization": "Alpha Gamma Delta",
@@ -83,7 +85,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "mhandler@hawaii.edu",
       "rioWebsite": "http://hawaii.alphagammadelta.org",
-      "socialNetwork": "FB: Alpha Gamma Delta @ UH Manoa"
+      "socialNetwork": "FB: Alpha Gamma Delta @ UH Manoa",
+      "facebook": "https://www.facebook.com/AlphaGammaDeltaHawaii/"
     },
     {
       "nameOfOrganization": "American Cetacean Society Student Coalition at the University of Hawai'i",
@@ -91,8 +94,9 @@
       "contactPerson": "Rebecca Katz",
       "image": "https://picsum.photos/300/150/?random",
       "email": "rmkatz@hawaii.edu",
-      "rioWebsite": "acsonline.org",
-      "socialNetwork": "FB: American Cetacean Society Student Coalition - University of Hawai'i at Manoa | TW: acs_uh | IG: acs_uh"
+      "rioWebsite": "http://acsonline.org",
+      "socialNetwork": "FB: American Cetacean Society Student Coalition - University of Hawai'i at Manoa | TW: acs_uh | IG: acs_uh",
+      "facebook": "https://www.facebook.com/acsuhmanoa/"
     },
     {
       "nameOfOrganization": "American Indian Science & Engineering Society",
@@ -100,7 +104,8 @@
       "contactPerson": "John \"Makamae\" Carpenter",
       "image": "https://picsum.photos/300/150/?random",
       "email": "jwcarpen@hawaii.edu",
-      "socialNetwork": "FB: AISES at the University of Hawaii at Manoa"
+      "socialNetwork": "FB: AISES at the University of Hawaii at Manoa",
+      "facebook": "https://www.facebook.com/UHMAises/"
     },
     {
       "nameOfOrganization": "American Institute of Architecture Students",
@@ -109,7 +114,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "kjugueta@hawaii.edu",
       "rioWebsite": "aiashawaii.com",
-      "socialNetwork": "FB: facebook.com/aiashawaii | IG: @aiashawaii"
+      "socialNetwork": "FB: facebook.com/aiashawaii | IG: @aiashawaii",
+      "facebook": "https://www.facebook.com/AIAShawaii/"
     },
     {
       "nameOfOrganization": "American Library Association Hawai'I Student Chapter",
@@ -118,7 +124,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "mhkaahaa@hawaii.edu",
       "rioWebsite": "alahisc.wordpress.com",
-      "socialNetwork": "FB: www.facebook.com/ALAscHawaii | TW: @ALAsc_hi"
+      "socialNetwork": "FB: www.facebook.com/ALAscHawaii | TW: @ALAsc_hi",
+      "facebook": "https://www.facebook.com/ALAscHawaii"
     },
     {
       "nameOfOrganization": "American Marketing Association",
@@ -127,7 +134,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "dakota6@hawaii.edu",
       "rioWebsite": "amauhm.org",
-      "socialNetwork": "FB: American Marketing Association UHM"
+      "socialNetwork": "FB: American Marketing Association UHM",
+      "facebook": "https://www.facebook.com/AMAUHM/"
     },
     {
       "nameOfOrganization": "American Society of Civil Engineers",
@@ -135,8 +143,9 @@
       "contactPerson": "Leah Miyasato",
       "image": "https://picsum.photos/300/150/?random",
       "email": "leahmiya@hawaii.edu",
-      "rioWebsite": "asceuhm.weebly.com",
-      "socialNetwork": "FB: www.facebook.com/asce uhm/ | IG: @asceuhm"
+      "rioWebsite": "https://asceuhm.weebly.com",
+      "socialNetwork": "FB: www.facebook.com/asce uhm/ | IG: @asceuhm",
+      "facebook": "https://www.facebook.com/ASCEHawaiiSectionYMF"
     },
     {
       "nameOfOrganization": "American Society of Mechanical Engineers",
@@ -144,15 +153,14 @@
       "contactPerson": "Ryan-Philip Roque",
       "image": "https://picsum.photos/300/150/?random",
       "email": "rpr@hawaii.edu",
-      "rioWebsite": "uhmasme.com"
+      "rioWebsite": "http://uhmasme.com"
     },
     {
       "nameOfOrganization": "American Water Works Association Hawaii",
       "type": "Academic/Professional",
       "contactPerson": "Tineill Dudoit",
       "image": "https://picsum.photos/300/150/?random",
-      "email": "tineill@hawaii.edu",
-      "rioWebsite": "n/a"
+      "email": "tineill@hawaii.edu"
     },
     {
       "nameOfOrganization": "Animal Science Club at University of Hawaii at Manoa",
@@ -167,8 +175,9 @@
       "contactPerson": "Barryn Chun",
       "image": "https://picsum.photos/300/150/?random",
       "email": "ams@hawaii.edu",
-      "rioWebsite": "www.amshawaii.org",
-      "socialNetwork": "FB: facebook.com/groups/AMSManoa/"
+      "rioWebsite": "https://www.amshawaii.org",
+      "socialNetwork": "FB: facebook.com/groups/AMSManoa/",
+      "facebook": "https://facebook.com/groups/AMSManoa/"
     }
   ]
 }

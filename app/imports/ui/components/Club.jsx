@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Image, Button } from 'semantic-ui-react';
+import { Card, Image, Icon } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter, Link, NavLink } from 'react-router-dom';
 import {Bert} from 'meteor/themeteorchef:bert';
 import { Clubs } from '/imports/api/club/club';
 
@@ -37,9 +37,16 @@ class Club extends React.Component {
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
-            contact info: {this.props.club.contactAndClubInfo}
+            {this.props.club.rioWebsite ? (
+                <a href={this.props.club.rioWebsite}>Website</a>
+            ) : ''}
             </Card.Content>
           <Card.Content extra>
+            {this.props.club.facebook ? (
+                [<a href={this.props.club.facebook} key={this.props.club.facebook}>
+                  <Icon size='big' color='blue' name='facebook square' key={this.props.club.facebook}/>
+                </a>]
+            ) : ''}
           </Card.Content>
         </Card>
     );
