@@ -14,7 +14,7 @@ import MyClubs from '../pages/MyClubs';
 import ListContacts from '../pages/ListContacts';
 import ListContactsAdmin from '../pages/ListContactsAdmin';
 import MyClubsAdmin from '../pages/MyClubsAdmin';
-import AddContact from '../pages/AddContact';
+import AddClub from '../pages/AddClub';
 import EditContact from '../pages/EditContact';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
@@ -37,7 +37,7 @@ class App extends React.Component {
               <Route exact path="/clubpage" component={ClubPage}/>
               <Route exact path="/myclubs" component={MyClubs}/>
               <ProtectedRoute path="/list" component={ListContacts}/>
-              <ProtectedRoute path="/add" component={AddContact}/>
+              <ProtectedRoute path="/add" component={AddClub}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
               <ProtectedRoute path="/club/:_id" component={ClubPage}/>
               <AdminProtectedRoute path="/admin" component={MyClubsAdmin}/>

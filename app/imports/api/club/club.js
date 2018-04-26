@@ -8,7 +8,11 @@ const Clubs = new Mongo.Collection('Clubs');
 /** Create a schema to constrain the structure of documents associated with this collection. */
 const ClubSchema = new SimpleSchema({
   nameOfOrganization: String,
-  type: String,
+  type: {
+    type: String,
+    allowedValues: ['Academic/Professional', 'Sports/Leisure', 'Religious/Recreational', 'Sorority/Fraternity', 'Ethic/Cultural', 'Student Affairs', 'Honorary Society', 'Election'],
+    defaultValue: 'Academic/Professional',
+  },
   contactPerson: String,
   image: String,
   email: {
@@ -28,6 +32,7 @@ const ClubSchema = new SimpleSchema({
     optional: true,
   },
   description: String,
+  owner: String,
 }, { tracker: Tracker });
 
 /** Attach this schema to the collection. */

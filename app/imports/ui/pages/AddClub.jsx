@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contacts, ClubSchema } from '/imports/api/club/contact';
+import { Clubs, ClubSchema } from '/imports/api/club/club';
 import { Grid, Segment, Header } from 'semantic-ui-react';
 import AutoForm from 'uniforms-semantic/AutoForm';
 import TextField from 'uniforms-semantic/TextField';
@@ -35,9 +35,9 @@ class AddClub extends React.Component {
 
   /** On submit, insert the data. */
   submit(data) {
-    const { firstName, lastName, address, image, description } = data;
+    const { nameOfOrganization, type, contactPerson, image, email, rioWebiste, socialNetwork, description } = data;
     const owner = Meteor.user().username;
-    Contacts.insert({ firstName, lastName, address, image, description, owner }, this.insertCallback);
+    Clubs.insert({ nameOfOrganization, type, contactPerson, image, email, rioWebiste, socialNetwork, description, owner }, this.insertCallback);
   }
 
   /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */
@@ -49,12 +49,13 @@ class AddClub extends React.Component {
             <AutoForm ref={(ref) => { this.formRef = ref; }} schema={ClubSchema} onSubmit={this.submit}>
               <Segment>
                 <TextField name='nameOfOrganization'/>
-                <TextField name='type'/>
+                <SelectField name='type'/>
                 <TextField name='contactPerson'/>
                 <TextField name='image'/>
                 <TextField name='email'/>
                 <TextField name='rioWebsite'/>
                 <TextField name='socialNetwork'/>
+                <LongTextField name='description'/>
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
                 <HiddenField name='owner' value='fakeuser@foo.com'/>

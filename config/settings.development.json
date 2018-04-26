@@ -9,14 +9,15 @@
     {"user": "john@foo.com", "club": "AECT- Hawai'i"}
   ],
 
-  "defaultClubs": [
+  "defaultClubs":[
     {
       "nameOfOrganization": "Academy for Creative Media Student Association",
       "type": "Academic/Professional",
       "contactPerson": "Josh Lee",
       "image": "https://picsum.photos/300/150/?random",
       "email": "jlee47@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Accounting Club",
@@ -26,7 +27,8 @@
       "email": "mjitchak@hawaii.edu",
       "rioWebsite": "www.acuhmanoa.com",
       "socialNetwork": "FB:Accounting Club at UH",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Advocates for Public Interest Law",
@@ -36,7 +38,8 @@
       "email": "kenory@hawaii.edu",
       "rioWebsite": "apilatuh.weebly.com",
       "socialNetwork": "FB: www.facebook.com/groups/64178184733",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "AECT- Hawai'i",
@@ -45,7 +48,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "minara@hawaii.edu",
       "rioWebsite": "https://bit.ly/aect-hi",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Aikido Club at UHM",
@@ -53,7 +57,8 @@
       "contactPerson": "Timothy J. Holliday",
       "image": "https://picsum.photos/300/150/?random",
       "email": "holliday@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Aloha Navs",
@@ -63,7 +68,8 @@
       "email": "cmbunch@hawaii.edu",
       "rioWebsite": "uhnavs.org",
       "socialNetwork": "FB: Aloha Navs",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Aloha Runnning Club at the University of Hawai`I at Manoa",
@@ -71,7 +77,8 @@
       "contactPerson": "Kelsey Casalini",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kelseypc@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Alohathon Dance Marathon",
@@ -80,7 +87,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "alysiaam@hawaii.edu",
       "socialNetwork": "FB: alohathon.uhm | Twitter: @alohathon_uhm | IG: alohathon.uhm",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Alpha Gamma Delta",
@@ -90,7 +98,8 @@
       "email": "mhandler@hawaii.edu",
       "rioWebsite": "http://hawaii.alphagammadelta.org",
       "socialNetwork": "FB: Alpha Gamma Delta @ UH Manoa",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Cetacean Society Student Coalition at the University of Hawai'i",
@@ -100,7 +109,8 @@
       "email": "rmkatz@hawaii.edu",
       "rioWebsite": "acsonline.org",
       "socialNetwork": "FB: American Cetacean Society Student Coalition - University of Hawai'i at Manoa | TW: acs_uh | IG: acs_uh",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Indian Science & Engineering Society",
@@ -109,7 +119,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "jwcarpen@hawaii.edu",
       "socialNetwork": "FB: AISES at the University of Hawaii at Manoa",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Institute of Architecture Students",
@@ -119,7 +130,8 @@
       "email": "kjugueta@hawaii.edu",
       "rioWebsite": "aiashawaii.com",
       "socialNetwork": "FB: facebook.com/aiashawaii | IG: @aiashawaii",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Library Association Hawai'I Student Chapter",
@@ -129,7 +141,8 @@
       "email": "mhkaahaa@hawaii.edu",
       "rioWebsite": "alahisc.wordpress.com",
       "socialNetwork": "FB: www.facebook.com/ALAscHawaii | TW: @ALAsc_hi",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Marketing Association",
@@ -139,7 +152,8 @@
       "email": "dakota6@hawaii.edu",
       "rioWebsite": "amauhm.org",
       "socialNetwork": "FB: American Marketing Association UHM",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Society of Civil Engineers",
@@ -149,7 +163,8 @@
       "email": "leahmiya@hawaii.edu",
       "rioWebsite": "asceuhm.weebly.com",
       "socialNetwork": "FB: www.facebook.com/asce uhm/ | IG: @asceuhm",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Society of Mechanical Engineers",
@@ -158,7 +173,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "rpr@hawaii.edu",
       "rioWebsite": "uhmasme.com",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "American Water Works Association Hawaii",
@@ -167,7 +183,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "tineill@hawaii.edu",
       "rioWebsite": "n/a",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Animal Science Club at University of Hawaii at Manoa",
@@ -175,7 +192,8 @@
       "contactPerson": "Jenee Odani",
       "image": "https://picsum.photos/300/150/?random",
       "email": "jsodani@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Anime Manga Society",
@@ -185,7 +203,8 @@
       "email": "ams@hawaii.edu",
       "rioWebsite": "www.amshawaii.org",
       "socialNetwork": "FB: facebook.com/groups/AMSManoa/",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Anthropology Undergraduate Student Association",
@@ -193,7 +212,8 @@
       "contactPerson": "Mahealani Wilson",
       "image": "https://picsum.photos/300/150/?random",
       "email": "mwilson2@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Arnold Air Society",
@@ -202,7 +222,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "cblack67@hawaii.edu",
       "socialNetwork": "FB: facebook.com/arnoldairhickam",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Association for Computing Machinery at Manoa",
@@ -212,7 +233,8 @@
       "email": "brianmay@hawaii.edu",
       "rioWebsite": "acmanoa.github,io",
       "socialNetwork": "FB: ACMManoa | Twitter: @ACMatManoa",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Association of Chinese Scholars in Hawaii (ACSH)",
@@ -222,7 +244,8 @@
       "email": "hsingwen@hawaii.edu",
       "rioWebsite": "n/a",
       "socialNetwork": "n/a",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Association of Leaders, Philanthropists, and Hawaiian Activists",
@@ -230,7 +253,8 @@
       "contactPerson": "Marcus Armstrong-Patterson",
       "image": "https://picsum.photos/300/150/?random",
       "email": "marcuspa@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Atherton YMCA",
@@ -240,7 +264,8 @@
       "email": "cuongt@hawaii.edu",
       "rioWebsite": "athertonymca.org",
       "socialNetwork": "FB: Atherton YMCA",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Athletic Training Student Society",
@@ -248,7 +273,8 @@
       "contactPerson": "Jesse Williams",
       "image": "https://picsum.photos/300/150/?random",
       "email": "jw8024@hawaii.edu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Bachelor of Social Work Organization",
@@ -258,7 +284,8 @@
       "email": "kainanid@hawaii.edu",
       "rioWebsite": "n/a",
       "socialNetwork": "n/a",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Baha'i Association at UH Manoa",
@@ -268,7 +295,8 @@
       "email": "arahmani@hawaii.edu",
       "rioWebsite": "n/a",
       "socialNetwork": "n/a",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Balloon Satellite Mission at University of Hawaii at Manoa",
@@ -278,7 +306,8 @@
       "email": "drex@hawaii.edu",
       "rioWebsite": "n/a",
       "socialNetwork": "n/a",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "BAMP + Electric Palms Club",
@@ -287,7 +316,8 @@
       "image": "https://picsum.photos/300/150/?random",
       "email": "leannefu@hawaii.edu",
       "rioWebsite": "bampproject.com",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Baptist Collegiate Ministries",
@@ -297,7 +327,8 @@
       "email": "kmk3@hawaii.edu",
       "rioWebsite": "www.bcmoahu.org",
       "socialNetwork": "FB: facebook.com/groups/bcmoahu | IG: @bcmoahu",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     },
     {
       "nameOfOrganization": "Belly Dance Raqs - Manoa",
@@ -305,253 +336,8 @@
       "contactPerson": "Samantha Giridhar",
       "image": "https://picsum.photos/300/150/?random",
       "email": "swon@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Best Buddies Hawaii",
-      "type": "Sports/Leisure",
-      "contactPerson": "Rhonda Black",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "rblack@hawaii.edu",
-      "rioWebsite": "www.bestbuddies.org/find-programs/hawaii",
-      "socialNetwork": "FB: www.facebook.com/bestbuddies.hi",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Beta Alpha Psi - Delta Theta Chapter",
-      "type": "Sorority/Fraternity",
-      "contactPerson": "Caitlin Kaneshiro",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "ckk9@hawaii.edu",
-      "rioWebsite": "www2.hawaii.edu/~bap/about.htm",
-      "socialNetwork": "FB: Beta Alpha Psi - Delta Theta Chapter",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Beta Beta Gamma Sorority",
-      "type": "Sorority/Fraternity",
-      "contactPerson": "Georgeanna Bowen",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "grbowen@hawaii.edu",
-      "rioWebsite": "betabetagamma.com",
-      "socialNetwork": "FB: @betabetagamma | Twitter: @bbg_uhm | IG: bbg_uhm",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Biological Engineering Student Association",
-      "type": "Academic/Professional",
-      "contactPerson": "Kacie Niimoto",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "ktmn@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Black Student Association",
-      "type": "Ethnic/Cultural",
-      "contactPerson": "Bri'Ana Lawson",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "brianal9@hawaii.edu",
-      "socialNetwork": "FB: www.facebook.com/groups/bsamanoa | TW: @bsa_uh_manoa",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Botanical Society of America Student Chapter at University of Hawaii at Manoa",
-      "type": "Academic/Professional",
-      "contactPerson": "Scott VanDeVerg",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "scottvdv@hawaii.edu",
-      "rioWebsite": "http://botany.org/membership/studentbenefits.php",
-      "socialNetwork": "http://www.facebook.com/BSAatUHM",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Brazilian Freestyle Jujitsu",
-      "type": "Sports/Leisure",
-      "contactPerson": "Brent Fujimoto",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "brentfuj@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Breathe Aloha",
-      "type": "Student Affairs",
-      "contactPerson": "Chelsea Jane Gonzales",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "cjeg@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Buddhi Yoga Manoa",
-      "type": "Sports/Leisure",
-      "contactPerson": "Veronica Gibson",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "vgibson@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Buddhism in Action",
-      "type": "Religious/Spiritual",
-      "contactPerson": "Tetsuya Idoto",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "tidota@hawaii.edu",
-      "rioWebsite": "www.sgi-usa.org",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Business Executive Society of Tomorrow",
-      "type": "Academic/Professional",
-      "contactPerson": "Nikki Lau",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "nikkilau@hawaii.edu",
-      "rioWebsite": "http://www.bestuhm.org/",
-      "socialNetwork": "FB: https://www.facebook.com/bestuhm/",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Campus Chinese Christian Fellowship",
-      "type": "Religious/Spiritual",
-      "contactPerson": "Fei-Fei Jin",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "jff@hawaii.edu",
-      "rioWebsite": "www.cccm2007.blog.com",
-      "socialNetwork": "n/a",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Campus Drummers",
-      "type": "Ethnic/Cultural",
-      "contactPerson": "Kirk Sullivan",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "kesulliv@hawaii.edu",
-      "rioWebsite": "groupspaces.com/CampusDrummers",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Capoeira Senzala",
-      "type": "Sports/Leisure",
-      "contactPerson": "Astrid Leitner",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "aleitner@hawaii.edu",
-      "socialNetwork": "FB: Capoeira Senzala Hawaii",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "CARP Hawaii",
-      "type": "Religious/Spiritual",
-      "contactPerson": "Chizuko Allen",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "chizuko@hawaii.edu",
-      "rioWebsite": "www.carplife.org",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Chemistry Club",
-      "type": "Academic/Professional",
-      "contactPerson": "Eileen Chen",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "esrchen@hawaii.edu",
-      "socialNetwork": "FB: UH Manoa Chemistry Club (@uhmanoachemclub) | IG: uhm_chemclub",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Chess Club",
-      "type": "Sports/Leisure",
-      "contactPerson": "Corey Pak",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "coreypak@hawaii.edu",
-      "rioWebsite": "chess/com/club/uh-manoa",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Chi Epsilon",
-      "type": "Academic/Professional",
-      "contactPerson": "Kimberly Chun",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "kmlchun@hawaii.edu",
-      "rioWebsite": "www.sites.google.com/site/xeumanoa/",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Chinese Language Flagship Club",
-      "type": "Ethnic/Cultural",
-      "contactPerson": "Oliver Sou",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "osou@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Chinese Students and Scholars Association",
-      "type": "Academic/Professional",
-      "contactPerson": "Lin Song",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "linsong@hawaii.edu",
-      "rioWebsite": "www2.hawaii.edu/~cssauh/",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Church in Honolulu",
-      "type": "Religious/Spiritual",
-      "contactPerson": "Xuan Cao",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "caoxuan@hawaii.edu",
-      "rioWebsite": "churchinhonolulu.net",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Circle K International",
-      "type": "Sports/Leisure",
-      "contactPerson": "Ace Jaedrin Cabato",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "ajcabato@hawaii.edu",
-      "rioWebsite": "ckiuhm.weebly.com",
-      "socialNetwork": "IG: @cki_uhm",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Clay Club at UHM",
-      "type": "Sports/Leisure",
-      "contactPerson": "Kaili Hamada",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "kailimh@hawaii.edu",
-      "rioWebsite": "n/a",
-      "socialNetwork": "n/a",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Club Managers Association of America POP Student Chapter",
-      "type": "Academic/Professional",
-      "contactPerson": "Jasmine Francisco",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "jf28@hawaii.edu",
-      "socialNetwork": "FB: facebook.com/cmaa.manoa/",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Coalition to Stop Campus Hunger",
-      "type": "Student Affairs",
-      "contactPerson": "Joannie Dobbs",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "dobbs@hawaii.edu",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Colleges Against Cancer",
-      "type": "Academic/Professional",
-      "contactPerson": "Chelsea Gonzales",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "cjeg@hawaii.edu",
-      "rioWebsite": "acscan.org/hawaii",
-      "socialNetwork": "FB: Colleges Against Cancer UHM",
-      "description": "What is your club about?"
-    },
-    {
-      "nameOfOrganization": "Contra Dancers at the University of Hawaii at Manoa",
-      "type": "Sports/Leisure",
-      "contactPerson": "Daniel Tschudi",
-      "image": "https://picsum.photos/300/150/?random",
-      "email": "dtschudi@hawaii.edu",
-      "socialNetwork": "FB: http://www.facebook.com/contradancehawaii",
-      "description": "What is your club about?"
+      "description": "What is your club about?",
+      "owner": "admin@foo.com"
     }
   ]
 }
