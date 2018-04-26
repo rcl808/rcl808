@@ -30,7 +30,6 @@ render()
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
-              <Button onClick={}
             </Grid.Row>
           </Grid>
         </Container>
