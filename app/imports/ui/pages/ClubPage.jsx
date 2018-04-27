@@ -8,12 +8,31 @@ import { UserClubs } from '/imports/api/userclubs/userclubs';
 
 /** A simple static component to render some text for the landing page. */
 class ClubPage extends React.Component {
-  OnClickJoin() {
-    UserClubs.add
+  constructor(props) {
+    super(props);
+    this.OnClickJoin = this.OnClickJoin.bind(this);
   }
 
+  OnClickJoin() {
+    const user = Meteor.user().username;
+    const club = this.props.club.nameOfOrganization;
+    UserClubs.insert({ user, club});
+  }
 
-render()
+  OnClickLeave() {
+    const user = Meteor.user().username;
+    const club = this.props.club.nameOfOrganization;
+    UserClubs.remove({ user, club});
+  }
+
+  inClub() {
+    const myClubList = _.pluck(this.props.userClubs, 'club');
+
+    const myClubs = _.flatten(_.map(myClubList, (name) => _.where(this.props.clubs, { nameOfOrganization: name })));
+    return myClubs;
+  }
+
+  render()
 {
   return (
       <div>
@@ -30,6 +49,7 @@ render()
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
+              <Button onClick={this.OnClickJoin()}>Join Club</Button>
             </Grid.Row>
           </Grid>
         </Container>
