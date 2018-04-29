@@ -35,6 +35,7 @@ class Footer extends React.Component {
                   </a>
                 </Grid.Column>
               </Grid>
+              <hr/>
               <Header as='h2' inverted>
                 <Header.Content inverted>
                   Rad Club List

@@ -1,11 +1,21 @@
 import React from 'react';
-import { Grid, Header, Image, Container } from 'semantic-ui-react';
+import { Grid, Header, Image, Container, Card, Icon } from 'semantic-ui-react';
 
 /** A simple static component to render some text for the landing page. */
 class HomePage extends React.Component {
   render() {
     return (
         <div className='homepage'>
+          <Card>
+            <Image src='/images/academic/.jpg' />
+            <Card.Header>
+              <a>Academic/Professional</a>
+            </Card.Header>
+            <Card.Content extra>
+              <Icon name='users' />
+              Number of members
+            </Card.Content>
+          </Card>
           <Container>
             <Header as='h1'>Explore by Category</Header>
             <br/>
