@@ -5,31 +5,56 @@ import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Clubs } from '/imports/api/club/club';
 import { UserClubs } from '/imports/api/userclubs/userclubs';
+import { Bert } from 'meteor/themeteorchef:bert';
+import { NavLink } from 'react-router-dom';
 
 /** A simple static component to render some text for the landing page. */
 class ClubPage extends React.Component {
+
   constructor(props) {
     super(props);
-    this.OnClickJoin = this.OnClickJoin.bind(this);
+    this.onClickLeave = this.onClickLeave.bind(this);
+    this.inClub = this.inClub.bind(this);
+    this.insertCallback = this.insertCallback.bind(this);
+    this.deleteCallback = this.deleteCallback.bind(this);
   }
 
-  OnClickJoin() {
+  insertCallback(error) {
+    if (error) {
+      Bert.alert({ type: 'danger', message: `Error: ${error.message}` });
+    } else {
+      Bert.alert({ type: 'success', message: `You've joined ${this.props.club.nameOfOrganization}!` });
+    }
+  }
+
+  deleteCallback(error) {
+    if (error) {
+      Bert.alert({ type: 'danger', message: `Error: ${error.message}` });
+    } else {
+      Bert.alert({ type: 'success', message: `You've left ${this.props.club.nameOfOrganization}.` });
+    }
+  }
+
+  onClickJoin = () => {
     const user = Meteor.user().username;
     const club = this.props.club.nameOfOrganization;
-    UserClubs.insert({ user, club});
+    UserClubs.insert({ user, club }, this.insertCallback);
   }
 
-  OnClickLeave() {
-    const user = Meteor.user().username;
-    const club = this.props.club.nameOfOrganization;
-    UserClubs.remove({ user, club});
+  onClickLeave = () => {
+    const username = Meteor.user().username;
+    const clubName = this.props.club.nameOfOrganization;
+    const id = _.findWhere(this.props.userClubs, { user: username, club: clubName });
+    UserClubs.remove(id._id, this.deleteCallback);
   }
 
-  inClub() {
+  inClub = () => {
     const myClubList = _.pluck(this.props.userClubs, 'club');
-
-    const myClubs = _.flatten(_.map(myClubList, (name) => _.where(this.props.clubs, { nameOfOrganization: name })));
-    return myClubs;
+    console.log(myClubList);
+    if (_.contains(myClubList, this.props.club.nameOfOrganization)) {
+      return true;
+    }
+    return false;
   }
 
   render()
@@ -49,7 +74,11 @@ class ClubPage extends React.Component {
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
-              <Button onClick={this.OnClickJoin()}>Join Club</Button>
+              {/** Need the () for inClub, but not for onClickLeave & onClickJoin for some reason */}
+              {this.inClub() ? (
+                  <Button negative onClick={this.onClickLeave}>Leave Club</Button>
+              ) :
+                  <Button positive onClick={this.onClickJoin}>Join Club</Button>}
             </Grid.Row>
           </Grid>
         </Container>
@@ -57,12 +86,7 @@ class ClubPage extends React.Component {
           <Grid columns={2} stackable centered className='bottomgrid'>
             <Grid.Column>
               <Header size='large'>Details</Header>
-              <p>We will meet weekly on Wednesdays 12:15-1:15pm and brainstorm, feeding off each other's ideas of how
-                to #StepItUp in life, sharing our achievements and growing together. Everyone will pay it forward by
-                referring their friends and we all rise together. Remember that there are no stupid
-                questions. {this.props.club.contactPerson} will moderate.<br/>
-                Capping it as we are striving for quality time.
-              </p>
+              <p>{this.props.club.description}</p>
             </Grid.Column>
             <Grid.Column>
               <Segment compact>
@@ -88,7 +112,7 @@ ClubPage.propTypes = {
 };
 
   /** withTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker */
-export default withTracker(( {match}) => {
+export default withTracker(({ match }) => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const clubId = match.params._id;
   // Get access to the list of clubs.
