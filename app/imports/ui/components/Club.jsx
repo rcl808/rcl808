@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, Image, Button } from 'semantic-ui-react';
+import { Card, Image, Icon } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import { withRouter, Link } from 'react-router-dom';
-import {Bert} from 'meteor/themeteorchef:bert';
+import { withRouter, Link, NavLink } from 'react-router-dom';
+import { Bert } from 'meteor/themeteorchef:bert';
 import { Clubs } from '/imports/api/club/club';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
@@ -27,7 +27,9 @@ class Club extends React.Component {
   render() {
     return (
         <Card centered>
-          <Image src={this.props.club.image} />
+          <Link to={`/club/${this.props.club._id}`}>
+            <Image src={this.props.club.image}/>
+          </Link>
           <Card.Content>
             <Card.Header>
               {this.props.club.nameOfOrganization}
@@ -37,9 +39,16 @@ class Club extends React.Component {
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
-            contact info: {this.props.club.contactAndClubInfo}
-            </Card.Content>
+            {this.props.club.rioWebsite ? (
+                <a href={this.props.club.rioWebsite}>Website</a>
+            ) : ''}
+          </Card.Content>
           <Card.Content extra>
+            {this.props.club.facebook ? (
+                [<a href={this.props.club.facebook} key={this.props.club.facebook}>
+                  <Icon size='big' color='blue' name='facebook square' key={this.props.club.facebook}/>
+                </a>]
+            ) : ''}
           </Card.Content>
         </Card>
     );

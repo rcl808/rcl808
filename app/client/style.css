@@ -13,7 +13,7 @@
 }
 
 .below-landing-picture {
-  background-color: #000000;
+  background-color: #0f1721;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -31,12 +31,18 @@
 }
 
 .clubpage-name {
-  margin:0px;
+  margin: 10px;
+  align: center;
 }
 
 .footer-background {
-  background-color: #000000;
+  background-color: #0f1721;
   color: white;
   padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.my-clubs-page {
+  padding-top: 30px;
   padding-bottom: 30px;
 }

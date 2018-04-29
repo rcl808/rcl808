@@ -1,5 +1,7 @@
 import React from 'react';
 import { Grid, Header, Image, Container, Button } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
+
 
 /** A simple static component to render some text for the landing page. */
 class Landing extends React.Component {
@@ -12,7 +14,7 @@ class Landing extends React.Component {
               <Grid.Column textAlign='center'>
                 <Header as='h1' inverted>What do you love?</Header>
                 <Header as='h3' inverted>#MakeManoaYours with Rad Club List</Header>
-                <Button content='Log In' color='google plus' />
+                <Button as={NavLink} exact to="/signup" content='Sign Up' color='google plus' />
               </Grid.Column>
             </Grid.Row>
           </Grid>
