@@ -10,7 +10,7 @@ const ClubSchema = new SimpleSchema({
   nameOfOrganization: String,
   type: {
     type: String,
-    allowedValues: ['Academic/Professional', 'Sports/Leisure', 'Religious/Recreational', 'Sorority/Fraternity', 'Ethic/Cultural', 'Student Affairs', 'Honorary Society', 'Election'],
+    allowedValues: ['Academic/Professional', 'Sports/Leisure', 'Religious/Spiritual', 'Sorority/Fraternity', 'Ethic/Cultural', 'Student Affairs', 'Honorary Society', 'Election'],
     defaultValue: 'Academic/Professional',
   },
   contactPerson: String,
