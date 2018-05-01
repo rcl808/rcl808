@@ -43,9 +43,20 @@ class AddClub extends React.Component {
   /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */
   render() {
     return (
+        <div>
+          <div className='create-club-page'>
+            <Grid divided='vertically' stackable center container>
+              <Grid.Row columns={1}>
+                <Grid.Column textAlign='center'>
+                  <Header as='h1' inverted>Start a new Club</Header>
+                  <Header as='h3' inverted>Time to #MakeManoaOurs</Header>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </div>
+          <div className='submit-form'>
         <Grid container centered>
           <Grid.Column>
-            <Header as="h2" textAlign="center">Add Club</Header>
             <AutoForm ref={(ref) => { this.formRef = ref; }} schema={ClubSchema} onSubmit={this.submit}>
               <Segment>
                 <TextField name='nameOfOrganization'/>
@@ -63,6 +74,8 @@ class AddClub extends React.Component {
             </AutoForm>
           </Grid.Column>
         </Grid>
+          </div>
+        </div>
     );
   }
 }

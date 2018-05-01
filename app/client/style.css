@@ -30,6 +30,11 @@
   background-color: #f0f0f0;
 }
 
+.submit-form {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
 .clubpage-name {
   margin: 10px;
   align: center;
