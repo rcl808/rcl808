@@ -15,6 +15,8 @@ class MyClubs extends React.Component {
     return (this.props.ready) ? this.renderPage() : <Loader>Getting data</Loader>;
   }
 
+  /** Filtering by user is done by Meteor.publish. Reduces UserClubs database down to just club names, then matches
+   * that club name field with the data in the Clubs database to create an array of the relevant clubs' data */
   filterClubs() {
     const myClubList = _.pluck(this.props.userClubs, 'club');
     const myClubs = _.flatten(_.map(myClubList, (name) => _.where(this.props.clubs, { nameOfOrganization: name })));
