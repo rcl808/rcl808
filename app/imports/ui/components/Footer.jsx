@@ -17,8 +17,8 @@ class Footer extends React.Component {
                   <Header as='h3' inverted>Find a Club</Header>
                   Discover UH Clubs
                   <br/>
-                  <a href="">
-                    Explore
+                  <a href='/#/allclub'>
+                    See All Clubs
                     <Icon name='arrow right' color='blue' />
                   </a>
                 </Grid.Column>
