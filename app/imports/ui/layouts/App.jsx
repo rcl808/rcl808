@@ -40,7 +40,8 @@ class App extends React.Component {
               <ProtectedRoute path="/add" component={AddClub}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
               <ProtectedRoute path="/club/:_id" component={ClubPage}/>
-              <AdminProtectedRoute path="/admin" component={MyClubsAdmin}/>
+              <Route path="/allclub" component={MyClubsAdmin}/>
+              <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>

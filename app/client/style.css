@@ -40,6 +40,10 @@
   align: center;
 }
 
+.log-in-out {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
 .footer-background {
   background-color: #0f1721;
   color: white;

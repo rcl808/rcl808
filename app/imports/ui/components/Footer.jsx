@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Grid, Header, Icon } from 'semantic-ui-react';
 
-
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
@@ -30,7 +29,7 @@ class Footer extends React.Component {
                   <Header as='h3' inverted>Create a Club</Header>
                   Create your own club to make UH Manoa the best place to be.
                   <br/>
-                  <a href="">
+                  <a href='/#/add'>
                     Create a Club
                     <Icon name='right arrow' color='blue' />
                   </a>
