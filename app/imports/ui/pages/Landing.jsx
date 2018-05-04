@@ -1,4 +1,5 @@
 import React from 'react';
+import { Meteor } from 'meteor/meteor';
 import { Grid, Header, Image, Container, Button, Segment } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
@@ -14,7 +15,11 @@ class Landing extends React.Component {
               <Grid.Column textAlign='center'>
                 <Header as='h1' inverted>What do you love?</Header>
                 <Header as='h3' inverted>#MakeManoaYours with Rad Club List</Header>
-                <Button as={NavLink} exact to="/signup" content='Sign Up' color='google plus' />
+                {Meteor.user() ? (
+                    <Button as={NavLink} exact to="/allclub" content='Explore Clubs' color='google plus' />
+                ) :
+                    <Button as={NavLink} exact to="/signup" content='Sign Up' color='google plus' />
+                }
               </Grid.Column>
             </Grid.Row>
           </Grid>
@@ -106,5 +111,6 @@ class Landing extends React.Component {
     );
   }
 }
+
 
 export default Landing;

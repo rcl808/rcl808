@@ -35,9 +35,10 @@ class AddClub extends React.Component {
 
   /** On submit, insert the data. */
   submit(data) {
-    const { nameOfOrganization, type, contactPerson, image, email, rioWebiste, socialNetwork, description } = data;
+    const { nameOfOrganization, type, contactPerson, image, email, rioWebsite, socialNetwork, description } = data;
     const owner = Meteor.user().username;
-    Clubs.insert({ nameOfOrganization, type, contactPerson, image, email, rioWebiste, socialNetwork, description, owner }, this.insertCallback);
+    Clubs.insert({ nameOfOrganization, type, contactPerson, image, email, rioWebsite, socialNetwork, description, owner }, this.insertCallback);
+    Clubs.sort({ nameOfOrganization: 1 });
   }
 
   /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */

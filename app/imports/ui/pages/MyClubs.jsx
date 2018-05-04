@@ -19,7 +19,8 @@ class MyClubs extends React.Component {
    * that club name field with the data in the Clubs database to create an array of the relevant clubs' data */
   filterClubs() {
     const myClubList = _.pluck(this.props.userClubs, 'club');
-    const myClubs = _.flatten(_.map(myClubList, (name) => _.where(this.props.clubs, { nameOfOrganization: name })));
+    const myClubs = _.sortBy(_.flatten(_.map(myClubList, (name) =>
+        _.where(this.props.clubs, { nameOfOrganization: name }))), 'nameOfOrganization');
     return myClubs;
   }
 

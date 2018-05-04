@@ -36,7 +36,7 @@
       "contactPerson": "Kenory Khuy",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kenory@hawaii.edu",
-      "rioWebsite": "apilatuh.weebly.com",
+      "rioWebsite": "https://apilatuh.weebly.com/",
       "socialNetwork": "FB: www.facebook.com/groups/64178184733",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -66,7 +66,7 @@
       "contactPerson": "Cameron Bunch",
       "image": "https://picsum.photos/300/150/?random",
       "email": "cmbunch@hawaii.edu",
-      "rioWebsite": "uhnavs.org",
+      "rioWebsite": "https://uhnavs.org",
       "socialNetwork": "FB: Aloha Navs",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -107,7 +107,7 @@
       "contactPerson": "Rebecca Katz",
       "image": "https://picsum.photos/300/150/?random",
       "email": "rmkatz@hawaii.edu",
-      "rioWebsite": "acsonline.org",
+      "rioWebsite": "https://acsonline.org",
       "socialNetwork": "FB: American Cetacean Society Student Coalition - University of Hawai'i at Manoa | TW: acs_uh | IG: acs_uh",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -128,7 +128,7 @@
       "contactPerson": "Kristoffer Jugueta",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kjugueta@hawaii.edu",
-      "rioWebsite": "aiashawaii.com",
+      "rioWebsite": "https://aiashawaii.com",
       "socialNetwork": "FB: facebook.com/aiashawaii | IG: @aiashawaii",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -139,7 +139,7 @@
       "contactPerson": "Morganne Kaahaaina",
       "image": "https://picsum.photos/300/150/?random",
       "email": "mhkaahaa@hawaii.edu",
-      "rioWebsite": "alahisc.wordpress.com",
+      "rioWebsite": "https://alahisc.wordpress.com",
       "socialNetwork": "FB: www.facebook.com/ALAscHawaii | TW: @ALAsc_hi",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -150,7 +150,7 @@
       "contactPerson": "Dakota Chun",
       "image": "https://picsum.photos/300/150/?random",
       "email": "dakota6@hawaii.edu",
-      "rioWebsite": "amauhm.org",
+      "rioWebsite": "https://amauhm.org",
       "socialNetwork": "FB: American Marketing Association UHM",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -161,7 +161,7 @@
       "contactPerson": "Leah Miyasato",
       "image": "https://picsum.photos/300/150/?random",
       "email": "leahmiya@hawaii.edu",
-      "rioWebsite": "asceuhm.weebly.com",
+      "rioWebsite": "https://asceuhm.weebly.com",
       "socialNetwork": "FB: www.facebook.com/asce uhm/ | IG: @asceuhm",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -172,7 +172,7 @@
       "contactPerson": "Ryan-Philip Roque",
       "image": "https://picsum.photos/300/150/?random",
       "email": "rpr@hawaii.edu",
-      "rioWebsite": "uhmasme.com",
+      "rioWebsite": "https://uhmasme.com",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
     },
@@ -182,7 +182,6 @@
       "contactPerson": "Tineill Dudoit",
       "image": "https://picsum.photos/300/150/?random",
       "email": "tineill@hawaii.edu",
-      "rioWebsite": "n/a",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
     },
@@ -201,7 +200,7 @@
       "contactPerson": "Barryn Chun",
       "image": "https://picsum.photos/300/150/?random",
       "email": "ams@hawaii.edu",
-      "rioWebsite": "www.amshawaii.org",
+      "rioWebsite": "https://www.amshawaii.org",
       "socialNetwork": "FB: facebook.com/groups/AMSManoa/",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -231,7 +230,7 @@
       "contactPerson": "Brian Mayeshiro",
       "image": "https://picsum.photos/300/150/?random",
       "email": "brianmay@hawaii.edu",
-      "rioWebsite": "acmanoa.github,io",
+      "rioWebsite": "https://acmanoa.github.io",
       "socialNetwork": "FB: ACMManoa | Twitter: @ACMatManoa",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -242,7 +241,6 @@
       "contactPerson": "Ivan Wen",
       "image": "https://picsum.photos/300/150/?random",
       "email": "hsingwen@hawaii.edu",
-      "rioWebsite": "n/a",
       "socialNetwork": "n/a",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -262,7 +260,7 @@
       "contactPerson": "Cuong Tran",
       "image": "https://picsum.photos/300/150/?random",
       "email": "cuongt@hawaii.edu",
-      "rioWebsite": "athertonymca.org",
+      "rioWebsite": "https://athertonymca.org",
       "socialNetwork": "FB: Atherton YMCA",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -282,7 +280,6 @@
       "contactPerson": "Kainani Derrickson",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kainanid@hawaii.edu",
-      "rioWebsite": "n/a",
       "socialNetwork": "n/a",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -293,7 +290,6 @@
       "contactPerson": "Ashiyan Rahmani-Sharazi",
       "image": "https://picsum.photos/300/150/?random",
       "email": "arahmani@hawaii.edu",
-      "rioWebsite": "n/a",
       "socialNetwork": "n/a",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -304,7 +300,6 @@
       "contactPerson": "Drex Anne",
       "image": "https://picsum.photos/300/150/?random",
       "email": "drex@hawaii.edu",
-      "rioWebsite": "n/a",
       "socialNetwork": "n/a",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
@@ -315,7 +310,7 @@
       "contactPerson": "Leanne Fujimoto",
       "image": "https://picsum.photos/300/150/?random",
       "email": "leannefu@hawaii.edu",
-      "rioWebsite": "bampproject.com",
+      "rioWebsite": "https://bampproject.com",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
     },
@@ -325,7 +320,7 @@
       "contactPerson": "Kristina Kornegay",
       "image": "https://picsum.photos/300/150/?random",
       "email": "kmk3@hawaii.edu",
-      "rioWebsite": "www.bcmoahu.org",
+      "rioWebsite": "https://www.bcmoahu.org",
       "socialNetwork": "FB: facebook.com/groups/bcmoahu | IG: @bcmoahu",
       "description": "What is your club about?",
       "owner": "admin@foo.com"
