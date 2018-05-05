@@ -11,11 +11,8 @@ import HomePage from '../pages/HomePage';
 import CreateClub from '../pages/CreateClub';
 import ClubPage from '../pages/ClubPage';
 import MyClubs from '../pages/MyClubs';
-import ListContacts from '../pages/ListContacts';
-import ListContactsAdmin from '../pages/ListContactsAdmin';
 import MyClubsAdmin from '../pages/MyClubsAdmin';
 import AddClub from '../pages/AddClub';
-import EditContact from '../pages/EditContact';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
@@ -36,12 +33,9 @@ class App extends React.Component {
               <Route exact path="/createclub" component={CreateClub}/>
               <Route exact path="/clubpage" component={ClubPage}/>
               <Route exact path="/myclubs" component={MyClubs}/>
-              <ProtectedRoute path="/list" component={ListContacts}/>
               <ProtectedRoute path="/add" component={AddClub}/>
-              <ProtectedRoute path="/edit/:_id" component={EditContact}/>
               <ProtectedRoute path="/club/:_id" component={ClubPage}/>
               <Route path="/allclub" component={MyClubsAdmin}/>
-              <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
