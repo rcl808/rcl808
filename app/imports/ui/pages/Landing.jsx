@@ -39,7 +39,7 @@ class Landing extends React.Component {
             <Grid stackable center container>
               <Grid.Row columns={4}>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/academic.jpg' />
                       <Header as='h3'>Academic/Professional</Header>
@@ -47,7 +47,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/sport.jpg' />
                       <Header as='h3'>Sports/Leisure</Header>
@@ -55,7 +55,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/religous.jpg' />
                       <Header as='h3'>Religious/Recreational</Header>
@@ -63,7 +63,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/sorority.jpg' />
                       <Header as='h3'>Sorority/Fraternity</Header>
@@ -73,7 +73,7 @@ class Landing extends React.Component {
               </Grid.Row>
               <Grid.Row columns={4}>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/culture.jpg' />
                       <Header as='h3'>Ethnic/Cultural</Header>
@@ -81,7 +81,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/student.jpg' />
                       <Header as='h3'>Student Affairs</Header>
@@ -89,7 +89,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/honor.jpg' />
                       <Header as='h3'>Honorary Society</Header>
@@ -97,7 +97,7 @@ class Landing extends React.Component {
                   </a>
                 </Grid.Column>
                 <Grid.Column textAlign='left'>
-                  <a href="">
+                  <a href="/#/allclub">
                     <Segment>
                       <Image rounded src='/images/election.JPG' />
                       <Header as='h3'>Election</Header>
